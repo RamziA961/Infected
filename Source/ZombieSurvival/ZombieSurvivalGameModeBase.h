@@ -14,4 +14,6 @@ class ZOMBIESURVIVAL_API AZombieSurvivalGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	AZombieSurvivalGameModeBase();
 };
