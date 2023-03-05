@@ -96,6 +96,9 @@ void AABaseCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInp
 
 		//Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AABaseCharacter::Look);
+
+		//Jumping
+		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Triggered, this, &AABaseCharacter::Jump);
 	}
 }
 
