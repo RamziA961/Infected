@@ -5048,3 +5048,723 @@ Script Stack (0 frames) :
 [2023.05.11-14.36.22:383][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.04 sec (total: 1:51 min)
 [2023.05.11-14.36.22:392][866]AssetCheck: New page: Asset Save: bullets
 [2023.05.11-14.36.22:393][866]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI/Images/bullets.bullets
+[2023.05.11-14.42.35:346][599]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 U:/Documents/Unreal/ZombieSurvival5.1/Assets/GunAssets/AK47/AK47.fbx)
+[2023.05.11-14.42.35:357][599]LogFbx: Loading FBX Scene from U:/Documents/Unreal/ZombieSurvival5.1/Assets/GunAssets/AK47/AK47.fbx
+[2023.05.11-14.42.35:362][599]LogFbx: FBX Scene Loaded Succesfully
+[2023.05.11-14.43.17:436][599]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.05.11-14.43.19:695][599]LogFbx: Display: Triangulating static mesh AK47
+[2023.05.11-14.43.19:703][599]LogStaticMesh: Display: Building static mesh AK47...
+[2023.05.11-14.43.19:710][599]LogStaticMesh: Built static mesh [0.01s] /Game/AK47.AK47
+[2023.05.11-14.43.19:711][599]LogStaticMesh: Warning: AK47 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.05.11-14.43.19:711][599]LogStaticMesh: Warning: AK47 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.05.11-14.43.19:734][599]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.05.11-14.43.19:734][599]FBXImport: Warning: AK47 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.05.11-14.43.19:734][599]FBXImport: Warning: AK47 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: ================================================
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Total job queries 589, among them cache hits 211 (35.82%)
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Tracking 372 distinct input hashes that result in 103 distinct outputs (27.69%)
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: RAM used: 2.53 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.08%
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Shaders Compiled: 113
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Jobs assigned 119, completed 113 (94.96%)
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Average time worker was idle: 563.34 s
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Time job spent in pending queue: average 0.41 s, longest 6.60 s
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Job execution time: average 1.84 s, max 6.54 s
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Job life time (pending + execution): average 2.26 s, max 7.84
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 42.18 s
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Jobs were issued in 119 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Average processing rate: 2.68 jobs/sec
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Total thread time: 70.23 s
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Total thread preprocess time: 5.89 s
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Percentage time preprocessing: 8.39%
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Effective parallelization: 1.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 0.76 sec, max 0.89 sec, min 0.70 sec)
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.75 sec, max 0.96 sec, min 0.58 sec)
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    6 times, average 0.74 sec, max 0.83 sec, min 0.68 sec)
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    6 times, average 0.73 sec, max 0.85 sec, min 0.68 sec)
+[2023.05.11-14.43.23:568][860]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    6 times, average 0.73 sec, max 0.87 sec, min 0.65 sec)
+[2023.05.11-14.43.23:569][860]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-14.43.23:569][860]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.63% of total time (compiled   10 times, average 0.75 sec, max 0.96 sec, min 0.58 sec)
+[2023.05.11-14.43.23:569][860]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.70% of total time (compiled   10 times, average 0.68 sec, max 0.87 sec, min 0.52 sec)
+[2023.05.11-14.43.23:569][860]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.26% of total time (compiled    8 times, average 0.64 sec, max 0.80 sec, min 0.47 sec)
+[2023.05.11-14.43.23:569][860]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.51% of total time (compiled    6 times, average 0.76 sec, max 0.89 sec, min 0.70 sec)
+[2023.05.11-14.43.23:569][860]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.31% of total time (compiled    6 times, average 0.74 sec, max 0.83 sec, min 0.68 sec)
+[2023.05.11-14.43.23:569][860]LogShaderCompilers: Display: ================================================
+[2023.05.11-14.43.34:279][776]LogSlate: Window 'Message Log' being destroyed
+[2023.05.11-14.43.34:294][776]LogSlate: Window 'Message Log' being destroyed
+[2023.05.11-14.43.38:651][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.05.11-14.43.40:468][131]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.11-14.43.40:512][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.05.11-14.43.40:551][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.11-14.43.40:589][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.05.11-14.48.21:967][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.11-14.48.24:264][672]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.11-14.48.24:310][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.05.11-14.48.24:351][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.05.11-14.48.24:387][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.05.11-14.48.26:322][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.05.11-14.48.27:413][729]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.11-14.48.27:457][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.05.11-14.48.27:496][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.05.11-14.48.27:535][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.05.11-14.48.37:998][318]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 U:/Documents/Unreal/ZombieSurvival5.1/Assets/GunAssets/AK47/AK47.fbx)
+[2023.05.11-14.48.38:010][318]LogFbx: Loading FBX Scene from U:/Documents/Unreal/ZombieSurvival5.1/Assets/GunAssets/AK47/AK47.fbx
+[2023.05.11-14.48.38:015][318]LogFbx: FBX Scene Loaded Succesfully
+[2023.05.11-14.49.18:050][318]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.05.11-14.49.19:607][318]LogFbx: Display: Triangulating static mesh AK47
+[2023.05.11-14.49.19:629][318]LogStaticMesh: Warning: AK47 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.05.11-14.49.19:630][318]LogStaticMesh: Warning: AK47 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.05.11-14.49.19:648][318]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.05.11-14.49.19:648][318]FBXImport: Warning: AK47 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.05.11-14.49.19:648][318]FBXImport: Warning: AK47 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: ================================================
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Total job queries 593, among them cache hits 215 (36.26%)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Tracking 378 distinct input hashes that result in 103 distinct outputs (27.25%)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: RAM used: 2.57 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.08%
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Shaders Compiled: 119
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Jobs assigned 119, completed 119 (100.00%)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Average time worker was idle: 563.34 s
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Time job spent in pending queue: average 0.41 s, longest 6.60 s
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Job execution time: average 1.94 s, max 6.54 s
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Job life time (pending + execution): average 2.35 s, max 7.84
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 42.59 s
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Jobs were issued in 119 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Average processing rate: 2.79 jobs/sec
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Total thread time: 74.96 s
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Total thread preprocess time: 6.57 s
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Percentage time preprocessing: 8.77%
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Effective parallelization: 1.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   12 times, average 0.77 sec, max 0.96 sec, min 0.58 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 0.76 sec, max 0.89 sec, min 0.70 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    6 times, average 0.74 sec, max 0.83 sec, min 0.68 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    6 times, average 0.73 sec, max 0.85 sec, min 0.68 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    6 times, average 0.73 sec, max 0.87 sec, min 0.65 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.29% of total time (compiled   12 times, average 0.77 sec, max 0.96 sec, min 0.58 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.17% of total time (compiled   12 times, average 0.70 sec, max 0.87 sec, min 0.52 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.69% of total time (compiled   10 times, average 0.65 sec, max 0.80 sec, min 0.47 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.10% of total time (compiled    6 times, average 0.76 sec, max 0.89 sec, min 0.70 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.92% of total time (compiled    6 times, average 0.74 sec, max 0.83 sec, min 0.68 sec)
+[2023.05.11-14.49.28:154][ 21]LogShaderCompilers: Display: ================================================
+[2023.05.11-14.49.39:025][924]LogSlate: Window 'Message Log' being destroyed
+[2023.05.11-14.49.39:040][924]LogSlate: Window 'Message Log' being destroyed
+[2023.05.11-14.49.40:149][ 26]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/AK47.AK47
+[2023.05.11-14.49.40:185][ 26]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-14.49.42:309][ 26]LogViewport: Scene viewport resized to 1877x1262, mode Windowed.
+[2023.05.11-14.50.06:741][276]LogTexture: Display: Building textures: /Game/concrete_ncl1_1.concrete_ncl1_1 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.708295 MB), EncodeSpeed: Fast
+[2023.05.11-14.50.42:292][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-14.50.42:352][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AK47" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/AK47.uasset" SILENT=true
+[2023.05.11-14.50.42:756][ 71]LogSavePackage: Moving output files for package: /Game/AK47
+[2023.05.11-14.50.42:756][ 71]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/AK4778F3C18F47641FFD938467BA6B134188.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/AK47.uasset'
+[2023.05.11-14.50.45:583][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.29 sec (total: 1:54 min)
+[2023.05.11-14.50.45:591][ 71]AssetCheck: New page: Asset Save: AK47
+[2023.05.11-14.50.45:591][ 71]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/AK47.AK47
+[2023.05.11-14.50.46:293][100]LogSlate: Window 'AK47' being destroyed
+[2023.05.11-14.50.46:298][100]LogSlate: Window 'AK47' being destroyed
+[2023.05.11-14.50.46:339][100]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-14.50.46:339][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-14.50.46:747][100]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-14.50.46:747][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-14.50.48:392][100]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-14.50.48:392][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-14.50.54:309][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.11-14.50.55:550][529]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.11-14.50.55:620][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.05.11-14.50.55:655][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.05.11-14.50.55:677][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.11-14.51.29:189][843]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.11-14.51.29:196][843]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.11-14.51.29:201][843]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.11-14.51.29:211][844]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.11-14.51.54:133][786]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ACollectableWeapon
+[2023.05.11-14.51.55:638][786]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.11-14.52.00:594][336]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Items/BP_ACollectableWeapon.BP_ACollectableWeapon
+[2023.05.11-14.52.00:595][336]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-14.52.01:989][336]LogViewport: Scene viewport resized to 1235x1237, mode Windowed.
+[2023.05.11-14.53.20:871][814]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-14.53.20:917][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/BP_ACollectableWeapon" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/BP_ACollectableWeapon.uasset" SILENT=true
+[2023.05.11-14.53.21:061][814]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/BP_ACollectableWeapon
+[2023.05.11-14.53.21:061][814]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_ACollectableWeapon529C7F6F4DCB9A63A6F992A5123C6145.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/BP_ACollectableWeapon.uasset'
+[2023.05.11-14.53.23:712][814]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.84 sec (total: 1:57 min)
+[2023.05.11-14.53.23:721][814]AssetCheck: New page: Asset Save: BP_ACollectableWeapon
+[2023.05.11-14.53.23:721][814]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Items/BP_ACollectableWeapon.BP_ACollectableWeapon
+[2023.05.11-14.53.25:692][941]BlueprintLog: New page: Compile BP_ACollectableWeapon
+[2023.05.11-14.53.25:744][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.11-14.53.27:998][ 98]LogViewport: Scene viewport resized to 948x802, mode Windowed.
+[2023.05.11-14.53.36:879][797]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.11-14.53.36:879][797]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.11-14.53.36:879][797]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.11-14.53.44:783][797]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.11-14.53.44:790][797]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.11-14.53.44:795][797]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.11-14.53.44:802][798]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.11-14.53.56:953][236]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_InventoryComponent
+[2023.05.11-14.53.58:496][236]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.11-14.53.59:905][374]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-14.53.59:906][374]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-14.54.01:911][374]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-14.54.02:299][374]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.005918s (0.394239s overbudget)
+[2023.05.11-14.58.34:380][284]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-14.58.34:425][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-14.58.34:554][284]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-14.58.34:554][284]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent64A97777403F0F5819796E9C307D7B26.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-14.58.39:408][284]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.02 sec (total: 2:02 min)
+[2023.05.11-14.58.39:416][284]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-14.58.39:416][284]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-14.59.06:392][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.05.11-14.59.06:400][682]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.049
+[2023.05.11-14.59.06:420][682]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_InventoryComponent] ([2] browsable assets)...
+[2023.05.11-14.59.06:420][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_InventoryComponent]
+[2023.05.11-14.59.06:526][682]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto9
+[2023.05.11-14.59.06:526][682]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent_Auto98035DA254A32DFF5EF0EECA06C0C18B3.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto9.uasset'
+[2023.05.11-14.59.06:599][682]LogFileHelpers: Auto-saving content packages took 0.199
+[2023.05.11-15.19.24:378][526]LogDerivedDataCache: C:/Users/bmh22kau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.084 and deleted 0 files with total size 0 MiB. Scanned 1971 files in 1962 folders with total size 21 MiB.
+[2023.05.11-16.19.24:380][324]LogDerivedDataCache: C:/Users/bmh22kau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.084 and deleted 0 files with total size 0 MiB. Scanned 1971 files in 1962 folders with total size 21 MiB.
+[2023.05.11-16.42.46:947][531]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2023.05.11-16.42.47:148][531]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17900
+[2023.05.11-17.19.24:386][122]LogDerivedDataCache: C:/Users/bmh22kau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.090 and deleted 0 files with total size 0 MiB. Scanned 1971 files in 1962 folders with total size 21 MiB.
+[2023.05.11-18.00.10:346][459]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Realtek(R) Audio), InstanceID=1
+[2023.05.11-18.00.11:093][461]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{93fd88c7-452a-43e5-95ba-70594e6aabc8}, Name=Headphones (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=372.61
+[2023.05.11-18.00.11:093][461]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.11-18.00.11:094][461]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.11-18.00.26:708][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.00.26:769][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-18.00.26:878][ 85]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-18.00.26:960][ 85]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent34A4DE364510F9D2BB6387901E840B4A.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-18.00.27:061][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave took 353 ms (total: 2:02 min)
+[2023.05.11-18.00.27:071][ 85]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-18.00.27:071][ 85]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-18.01.10:436][987]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Items/BP_CollectableComponent.BP_CollectableComponent
+[2023.05.11-18.01.10:436][987]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-18.01.12:441][987]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-18.01.12:574][987]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.001361s (0.137337s overbudget)
+[2023.05.11-18.01.16:906][277]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.01.16:906][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.01.17:621][277]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Items/BP_CollectableComponent.BP_CollectableComponent
+[2023.05.11-18.01.17:621][277]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-18.04.07:795][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.11-18.04.07:799][644]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.055
+[2023.05.11-18.04.07:800][644]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/BP_CollectableComponent] ([2] browsable assets)...
+[2023.05.11-18.04.07:800][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/BP_CollectableComponent]
+[2023.05.11-18.04.07:871][644]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Items/BP_CollectableComponent_Auto0
+[2023.05.11-18.04.07:871][644]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_CollectableComponent_Auto08B5FEB4A4830015281FC53873DA82F13.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Items/BP_CollectableComponent_Auto0.uasset'
+[2023.05.11-18.04.07:921][644]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_InventoryComponent] ([2] browsable assets)...
+[2023.05.11-18.04.07:921][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_InventoryComponent]
+[2023.05.11-18.04.08:031][644]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto0
+[2023.05.11-18.04.08:031][644]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent_Auto048E9449A443BCDA7B85A59811F4F3FC9.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto0.uasset'
+[2023.05.11-18.04.08:070][644]LogFileHelpers: Auto-saving content packages took 0.271
+[2023.05.11-18.04.28:374][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.04.28:436][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/BP_CollectableComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/BP_CollectableComponent.uasset" SILENT=true
+[2023.05.11-18.04.28:495][279]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/BP_CollectableComponent
+[2023.05.11-18.04.28:544][279]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_CollectableComponentD60D460F4B6893B83A066E86F713D5D6.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/BP_CollectableComponent.uasset'
+[2023.05.11-18.04.28:590][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 2:02 min)
+[2023.05.11-18.04.28:597][279]AssetCheck: New page: Asset Save: BP_CollectableComponent
+[2023.05.11-18.04.28:597][279]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Items/BP_CollectableComponent.BP_CollectableComponent
+[2023.05.11-18.04.31:994][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.04.32:055][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-18.04.32:155][500]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-18.04.32:197][500]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponentB2A1CD7045CA84D9A66423B4F60545FF.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-18.04.32:249][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 254 ms (total: 2:03 min)
+[2023.05.11-18.04.32:254][500]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-18.04.32:254][500]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-18.08.50:241][248]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2023.05.11-18.08.50:247][248]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2023.05.11-18.08.50:267][249]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2023.05.11-18.08.58:598][233]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> SItem
+[2023.05.11-18.09.01:720][233]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2023.05.11-18.09.02:126][255]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Items/SItem.SItem
+[2023.05.11-18.09.45:180][435]LogContentBrowser: Attempting asset rename: SItem -> FSlot
+[2023.05.11-18.09.52:391][435]LogMetaData: Removing '/Game/Blueprints/Items/FSlot.FSlot' ref from Metadata '/Game/Blueprints/Items/SItem.PackageMetaData'
+[2023.05.11-18.09.52:392][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.09.52:453][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/FSlot" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FSlot.uasset" SILENT=true
+[2023.05.11-18.09.52:497][435]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/FSlot
+[2023.05.11-18.09.52:497][435]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FSlot032093FF4739DDC60C9BA68D76C03F05.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FSlot.uasset'
+[2023.05.11-18.09.55:898][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.50 sec (total: 2:06 min)
+[2023.05.11-18.09.57:418][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.11-18.09.57:469][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.05.11-18.09.57:520][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.05.11-18.09.57:528][435]AssetCheck: New page: Asset Save: FSlot
+[2023.05.11-18.09.57:528][435]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Items/FSlot.FSlot
+[2023.05.11-18.11.45:182][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.11.45:212][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/FSlot" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FSlot.uasset" SILENT=true
+[2023.05.11-18.11.45:301][876]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/FSlot
+[2023.05.11-18.11.45:333][876]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FSlot9CB623554BB2246FB7E653BC38DABB9E.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FSlot.uasset'
+[2023.05.11-18.11.45:375][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 193 ms (total: 2:06 min)
+[2023.05.11-18.11.45:393][876]AssetCheck: New page: Asset Save: FSlot
+[2023.05.11-18.11.45:393][876]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Items/FSlot.FSlot
+[2023.05.11-18.11.55:393][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.11.55:456][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/FSlot" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FSlot.uasset" SILENT=true
+[2023.05.11-18.11.55:541][ 74]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/FSlot
+[2023.05.11-18.11.55:575][ 74]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FSlot4B7439A646AA4AC3769F4AAFA7935ADE.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FSlot.uasset'
+[2023.05.11-18.11.55:619][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 225 ms (total: 2:07 min)
+[2023.05.11-18.11.55:625][ 74]AssetCheck: New page: Asset Save: FSlot
+[2023.05.11-18.11.55:625][ 74]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Items/FSlot.FSlot
+[2023.05.11-18.13.02:782][ 19]LogSlate: Window 'FSlot' being destroyed
+[2023.05.11-18.13.02:788][ 19]LogSlate: Window 'FSlot' being destroyed
+[2023.05.11-18.13.02:920][ 19]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.13.02:920][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.13.03:185][ 19]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.13.03:185][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.13.03:651][ 19]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.13.03:651][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.13.10:962][527]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-18.13.10:962][527]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-18.13.12:965][527]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-18.13.14:394][527]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002114s (1.432258s overbudget)
+[2023.05.11-18.14.09:236][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.05.11-18.14.09:242][371]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.043
+[2023.05.11-18.14.09:243][371]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_InventoryComponent] ([2] browsable assets)...
+[2023.05.11-18.14.09:244][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_InventoryComponent]
+[2023.05.11-18.14.09:379][371]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto1
+[2023.05.11-18.14.09:379][371]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent_Auto12E426D57479EEF7FC335DB8EFFBAEF71.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto1.uasset'
+[2023.05.11-18.14.09:422][371]LogFileHelpers: Auto-saving content packages took 0.180
+[2023.05.11-18.15.04:180][144]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.11-18.15.04:214][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.11-18.15.09:186][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.15.09:233][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-18.15.09:381][364]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-18.15.09:420][364]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent2A915B6344D66DFCABDBA7972DD7D713.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-18.15.09:467][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 279 ms (total: 2:07 min)
+[2023.05.11-18.15.09:472][364]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-18.15.09:472][364]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-18.15.10:464][426]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.11-18.15.10:465][426]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-18.16.33:487][966]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.11-18.16.33:511][966]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.11-18.16.33:521][967]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.11-18.16.38:536][569]LogContentBrowser: Attempting asset rename: NewFolder -> Inventory
+[2023.05.11-18.16.38:538][569]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.11-18.16.59:369][802]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.05.11-18.16.59:369][802]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.05.11-18.17.20:535][  7]LogMetaData: Removing '/Game/Blueprints/Player/Inventory/FSlot.FSlot' ref from Metadata '/Game/Blueprints/Items/FSlot.PackageMetaData'
+[2023.05.11-18.17.20:536][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.17.20:592][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-18.17.20:732][  7]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-18.17.20:769][  7]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponentA7B95A314DEEABD87F894BA8E20FD337.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-18.17.20:810][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FSlot" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FSlot.uasset" SILENT=true
+[2023.05.11-18.17.20:897][  7]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FSlot
+[2023.05.11-18.17.20:897][  7]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FSlot40ECB29346089BA759E06BB6B71429C0.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FSlot.uasset'
+[2023.05.11-18.17.23:615][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.07 sec (total: 2:10 min)
+[2023.05.11-18.17.25:309][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.11-18.17.25:348][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.11-18.17.25:384][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.05.11-18.17.27:781][  7]SourceControl: rm 'Content/Blueprints/Items/FSlot.uasset'
+[2023.05.11-18.17.27:817][  7]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.11-18.17.27:817][  7]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FSlot.FSlot
+[2023.05.11-18.17.27:817][  7]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-18.17.38:784][960]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2023.05.11-18.17.38:790][960]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2023.05.11-18.17.38:798][961]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2023.05.11-18.17.43:879][569]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> FItem
+[2023.05.11-18.17.45:005][569]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2023.05.11-18.17.46:167][634]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.18.18:561][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.18.18:588][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FItem" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset" SILENT=true
+[2023.05.11-18.18.18:639][619]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FItem
+[2023.05.11-18.18.18:639][619]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItem487304E04A31A9436F3ED097DA94563E.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset'
+[2023.05.11-18.18.20:868][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.30 sec (total: 2:12 min)
+[2023.05.11-18.18.20:874][619]AssetCheck: New page: Asset Save: FItem
+[2023.05.11-18.18.20:874][619]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.19.24:401][502]LogDerivedDataCache: C:/Users/bmh22kau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.104 and deleted 0 files with total size 0 MiB. Scanned 1971 files in 1962 folders with total size 21 MiB.
+[2023.05.11-18.19.44:049][138]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.19.44:110][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FItem" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset" SILENT=true
+[2023.05.11-18.19.44:205][138]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FItem
+[2023.05.11-18.19.44:246][138]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItem5C6FF01044AE4108C435BC8EA7C6BDE4.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset'
+[2023.05.11-18.19.44:293][138]LogFileHelpers: InternalPromptForCheckoutAndSave took 244 ms (total: 2:12 min)
+[2023.05.11-18.19.44:299][138]AssetCheck: New page: Asset Save: FItem
+[2023.05.11-18.19.44:299][138]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.20.14:526][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.20.14:585][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FItem" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset" SILENT=true
+[2023.05.11-18.20.14:704][188]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FItem
+[2023.05.11-18.20.14:746][188]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItem403B24E84CAF31BA127F7AAB0807C4E3.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset'
+[2023.05.11-18.20.15:037][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 511 ms (total: 2:13 min)
+[2023.05.11-18.20.15:042][188]AssetCheck: New page: Asset Save: FItem
+[2023.05.11-18.20.15:042][188]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.20.46:783][387]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2023.05.11-18.20.46:791][387]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2023.05.11-18.20.46:807][388]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2023.05.11-18.20.49:838][664]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> FAmmo
+[2023.05.11-18.20.51:136][664]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2023.05.11-18.20.52:110][745]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Player/Inventory/FAmmo.FAmmo
+[2023.05.11-18.22.40:495][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.22.40:540][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FAmmo" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FAmmo.uasset" SILENT=true
+[2023.05.11-18.22.40:611][160]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FAmmo
+[2023.05.11-18.22.40:611][160]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FAmmo29314D5944AC34FD59CCC1B718EA576E.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FAmmo.uasset'
+[2023.05.11-18.22.43:659][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.16 sec (total: 2:16 min)
+[2023.05.11-18.22.43:667][160]AssetCheck: New page: Asset Save: FAmmo
+[2023.05.11-18.22.43:667][160]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FAmmo.FAmmo
+[2023.05.11-18.22.48:567][538]BlueprintLog: New page: Compile BP_BaseCharacterConfig
+[2023.05.11-18.22.48:640][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.05.11-18.22.52:037][766]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.22.52:110][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_BaseCharacterConfig" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset" SILENT=true
+[2023.05.11-18.22.52:359][766]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_BaseCharacterConfig
+[2023.05.11-18.22.52:889][766]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_BaseCharacterConfigAC005B154CC0352B30B76599D9AE140D.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset'
+[2023.05.11-18.22.52:942][766]LogFileHelpers: InternalPromptForCheckoutAndSave took 904 ms (total: 2:17 min)
+[2023.05.11-18.22.52:947][766]AssetCheck: New page: Asset Save: BP_BaseCharacterConfig
+[2023.05.11-18.22.52:947][766]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.11-18.23.34:105][491]LogSlate: Window 'Pick Row Structure' being destroyed
+[2023.05.11-18.23.34:110][491]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2023.05.11-18.23.34:118][491]LogContentBrowser: Creating deferred item: NewDataTable
+[2023.05.11-18.23.34:144][492]LogContentBrowser: Renaming the item being created (Deferred Item: NewDataTable).
+[2023.05.11-18.23.42:481][770]LogContentBrowser: Attempting asset rename: NewDataTable -> NewDataTable
+[2023.05.11-18.23.44:243][770]LogContentBrowser: End creating deferred item NewDataTable
+[2023.05.11-18.23.49:197][ 91]LogContentBrowser: Attempting asset rename: NewDataTable -> ItemData
+[2023.05.11-18.23.56:358][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.23.56:402][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/ItemData" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/ItemData.uasset" SILENT=true
+[2023.05.11-18.23.56:425][ 91]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/ItemData
+[2023.05.11-18.23.56:426][ 91]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ItemData668460A34B484DEAD7A80D98E0E2570C.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/ItemData.uasset'
+[2023.05.11-18.23.59:673][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.31 sec (total: 2:20 min)
+[2023.05.11-18.24.00:895][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.05.11-18.24.00:934][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.05.11-18.24.00:974][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.05.11-18.24.00:982][ 91]AssetCheck: New page: Asset Save: ItemData
+[2023.05.11-18.24.00:982][ 91]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Player/Inventory/ItemData.ItemData
+[2023.05.11-18.24.13:000][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.05.11-18.24.15:296][614]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.11-18.24.16:593][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.11-18.24.16:634][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.05.11-18.24.16:672][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.05.11-18.24.19:396][614]SourceControl: rm 'Content/Blueprints/Player/Inventory/ItemData.uasset'
+[2023.05.11-18.28.23:142][683]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Player/Inventory/FSlot.FSlot
+[2023.05.11-18.28.53:224][382]LogSlate: Window 'FSlot' being destroyed
+[2023.05.11-18.28.53:230][382]LogSlate: Window 'FSlot' being destroyed
+[2023.05.11-18.28.53:411][382]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.28.53:411][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.28.54:331][382]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.28.54:331][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.29.02:319][149]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-18.29.02:319][149]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-18.29.20:375][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.29.20:420][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-18.29.20:568][523]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-18.29.20:618][523]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponentA7EA35BD4629A084C3D4279EE92B1E6A.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-18.29.20:667][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 291 ms (total: 2:21 min)
+[2023.05.11-18.29.20:673][523]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-18.29.20:673][523]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-18.29.20:944][544]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.11-18.29.20:946][544]LogClass: Warning: Array Property Content of Content contains a struct type mismatch (tag STRUCT_REINST_FSlot_59 != prop FItem) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.05.11-18.29.21:005][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.05.11-18.29.25:497][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.05.11-18.29.28:723][922]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.11-18.29.32:201][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.11-18.29.37:695][202]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.11-18.29.37:733][202]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Player/Inventory/FSlot.FSlot
+	Asset Type: UserDefinedStruct
+[2023.05.11-18.29.39:715][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.05.11-18.29.39:746][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.11-18.29.39:776][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.11-18.29.41:883][202]SourceControl: rm 'Content/Blueprints/Player/Inventory/FSlot.uasset'
+[2023.05.11-18.29.43:408][326]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.30.16:791][767]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.30.16:835][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FItem" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset" SILENT=true
+[2023.05.11-18.30.16:950][767]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FItem
+[2023.05.11-18.30.16:995][767]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItemF2B7DB844CCFF26818A6DDAF4C1EADCF.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset'
+[2023.05.11-18.30.17:044][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 252 ms (total: 2:21 min)
+[2023.05.11-18.30.17:049][767]AssetCheck: New page: Asset Save: FItem
+[2023.05.11-18.30.17:049][767]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.34.04:540][622]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.34.30:683][806]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.34.30:728][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FItem" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset" SILENT=true
+[2023.05.11-18.34.30:863][806]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FItem
+[2023.05.11-18.34.30:903][806]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItem3FF440904554CFCB6E15A7805FDC2AD2.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset'
+[2023.05.11-18.34.30:951][806]LogFileHelpers: InternalPromptForCheckoutAndSave took 267 ms (total: 2:21 min)
+[2023.05.11-18.34.30:958][806]AssetCheck: New page: Asset Save: FItem
+[2023.05.11-18.34.30:958][806]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.34.32:550][938]LogSlate: Window 'FItem' being destroyed
+[2023.05.11-18.34.32:554][938]LogSlate: Window 'FItem' being destroyed
+[2023.05.11-18.34.32:643][938]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.34.32:644][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.34.41:365][660]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Player/Inventory/FAmmo.FAmmo
+[2023.05.11-18.35.14:471][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.35.14:532][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FAmmo" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FAmmo.uasset" SILENT=true
+[2023.05.11-18.35.14:626][436]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FAmmo
+[2023.05.11-18.35.14:691][436]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FAmmoE34C2BC349981EF2C75FC29D1A0777FC.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FAmmo.uasset'
+[2023.05.11-18.35.14:737][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 2:21 min)
+[2023.05.11-18.35.14:743][436]AssetCheck: New page: Asset Save: FAmmo
+[2023.05.11-18.35.14:743][436]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FAmmo.FAmmo
+[2023.05.11-18.35.20:442][959]LogSlate: Window 'FAmmo' being destroyed
+[2023.05.11-18.35.20:451][959]LogSlate: Window 'FAmmo' being destroyed
+[2023.05.11-18.36.01:329][698]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-18.36.01:330][698]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-18.38.01:562][170]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::NotEqual_IntInt' [The specified module could not be found.]
+[2023.05.11-18.41.17:659][321]LogSlate: Window 'Pick Row Structure' being destroyed
+[2023.05.11-18.41.17:664][321]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2023.05.11-18.41.17:670][321]LogContentBrowser: Creating deferred item: NewDataTable
+[2023.05.11-18.41.17:683][322]LogContentBrowser: Renaming the item being created (Deferred Item: NewDataTable).
+[2023.05.11-18.41.23:731][865]LogContentBrowser: Attempting asset rename: NewDataTable -> ItemTable
+[2023.05.11-18.41.27:365][865]LogContentBrowser: End creating deferred item NewDataTable
+[2023.05.11-18.41.30:360][117]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/Player/Inventory/ItemTable.ItemTable
+[2023.05.11-18.41.32:362][117]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-18.41.32:645][117]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.004789s (0.285083s overbudget)
+[2023.05.11-18.42.49:031][746]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.42.49:095][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/ItemTable" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/ItemTable.uasset" SILENT=true
+[2023.05.11-18.42.49:132][746]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/ItemTable
+[2023.05.11-18.42.49:132][746]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ItemTableEBAD69CB4477696F170854B686FFD117.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/ItemTable.uasset'
+[2023.05.11-18.42.52:489][746]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.45 sec (total: 2:25 min)
+[2023.05.11-18.42.52:498][746]AssetCheck: New page: Asset Save: ItemTable
+[2023.05.11-18.42.52:498][746]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Player/Inventory/ItemTable.ItemTable
+[2023.05.11-18.42.55:915][ 34]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.43.18:239][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.43.18:284][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FItem" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset" SILENT=true
+[2023.05.11-18.43.18:454][859]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FItem
+[2023.05.11-18.43.18:517][859]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItem053A502D493F8FB8B8BC64A8B005095E.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset'
+[2023.05.11-18.43.18:615][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 376 ms (total: 2:25 min)
+[2023.05.11-18.43.18:622][859]AssetCheck: New page: Asset Save: FItem
+[2023.05.11-18.43.18:622][859]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.45.19:844][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.05.11-18.45.19:848][966]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.088
+[2023.05.11-18.45.19:868][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_InventoryComponent] ([2] browsable assets)...
+[2023.05.11-18.45.19:868][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_InventoryComponent]
+[2023.05.11-18.45.20:059][966]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto2
+[2023.05.11-18.45.20:059][966]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent_Auto259A1CC4941A61127B23B128E5F21B3EB.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto2.uasset'
+[2023.05.11-18.45.20:145][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/Inventory/FItem] ([1] browsable assets)...
+[2023.05.11-18.45.20:145][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/Inventory/FItem]
+[2023.05.11-18.45.20:313][966]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/Inventory/FItem_Auto2
+[2023.05.11-18.45.20:313][966]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItem_Auto2A98706194F6FBEBD8B481DB49E684B60.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/Inventory/FItem_Auto2.uasset'
+[2023.05.11-18.45.20:398][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/Inventory/ItemTable] ([1] browsable assets)...
+[2023.05.11-18.45.20:398][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/Inventory/ItemTable]
+[2023.05.11-18.45.20:432][966]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/Inventory/ItemTable_Auto2
+[2023.05.11-18.45.20:432][966]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ItemTable_Auto2F19B68F54DAAFDE049D4D3901CF320D8.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/Inventory/ItemTable_Auto2.uasset'
+[2023.05.11-18.45.20:499][966]LogFileHelpers: Auto-saving content packages took 0.650
+[2023.05.11-18.54.41:148][435]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/AK47.AK47
+[2023.05.11-18.54.41:182][435]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-18.54.43:152][435]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-18.54.43:986][435]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002489s (0.838649s overbudget)
+[2023.05.11-18.54.44:430][435]LogViewport: Scene viewport resized to 1442x827, mode Windowed.
+[2023.05.11-18.58.36:008][170]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.58.36:008][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.59.06:054][835]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.59.06:115][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/Inventory/FItem" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset" SILENT=true
+[2023.05.11-18.59.06:280][835]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/Inventory/FItem
+[2023.05.11-18.59.06:338][835]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItemFAF5E3F648E3429C2BA1F89BDE6548DE.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/Inventory/FItem.uasset'
+[2023.05.11-18.59.06:428][835]LogFileHelpers: InternalPromptForCheckoutAndSave took 374 ms (total: 2:26 min)
+[2023.05.11-18.59.06:436][835]AssetCheck: New page: Asset Save: FItem
+[2023.05.11-18.59.06:436][835]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Player/Inventory/FItem.FItem
+[2023.05.11-18.59.06:616][842]LogSlate: Window 'FItem' being destroyed
+[2023.05.11-18.59.06:620][842]LogSlate: Window 'FItem' being destroyed
+[2023.05.11-18.59.07:937][842]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-18.59.07:937][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-18.59.52:043][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-18.59.52:085][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/ItemTable" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTable.uasset" SILENT=true
+[2023.05.11-18.59.52:116][298]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/ItemTable
+[2023.05.11-18.59.52:116][298]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ItemTable5F6CC06949CE20886B0184B04CF2287C.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTable.uasset'
+[2023.05.11-18.59.54:871][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.82 sec (total: 2:28 min)
+[2023.05.11-18.59.56:681][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.05.11-18.59.56:744][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.05.11-18.59.56:774][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.11-18.59.59:248][298]SourceControl: rm 'Content/Blueprints/Player/Inventory/ItemTable.uasset'
+[2023.05.11-18.59.59:265][298]AssetCheck: New page: Asset Save: ItemTable
+[2023.05.11-18.59.59:265][298]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Items/ItemTable.ItemTable
+[2023.05.11-19.00.13:096][770]LogMetaData: Removing '/Game/Blueprints/Items/FItem.FItem' ref from Metadata '/Game/Blueprints/Player/Inventory/FItem.PackageMetaData'
+[2023.05.11-19.00.13:097][770]LogMetaData: Removing '/Game/Blueprints/Items/FAmmo.FAmmo' ref from Metadata '/Game/Blueprints/Player/Inventory/FAmmo.PackageMetaData'
+[2023.05.11-19.00.13:098][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.00.13:158][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-19.00.13:345][770]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-19.00.13:411][770]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponentAB0C846C4DA0D5214EF82CB48DB7FA63.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-19.00.13:501][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/ItemTable" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTable.uasset" SILENT=true
+[2023.05.11-19.00.13:535][770]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/ItemTable
+[2023.05.11-19.00.13:590][770]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ItemTableC49872AB4DDB7E6D09932DA81DBB417F.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTable.uasset'
+[2023.05.11-19.00.13:678][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/FItem" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FItem.uasset" SILENT=true
+[2023.05.11-19.00.13:842][770]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/FItem
+[2023.05.11-19.00.13:842][770]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FItemDBADC11A43D68ACB44FCCF9802110F47.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FItem.uasset'
+[2023.05.11-19.00.13:903][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/FAmmo" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FAmmo.uasset" SILENT=true
+[2023.05.11-19.00.14:015][770]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/FAmmo
+[2023.05.11-19.00.14:016][770]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/FAmmoE61A4F0B456A44D91DA49C8C9E13E81E.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/FAmmo.uasset'
+[2023.05.11-19.00.16:197][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.09 sec (total: 2:32 min)
+[2023.05.11-19.00.17:952][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.05.11-19.00.17:980][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.05.11-19.00.18:002][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.05.11-19.00.20:808][770]SourceControl: rm 'Content/Blueprints/Player/Inventory/FAmmo.uasset'
+[2023.05.11-19.00.20:808][770]SourceControl: rm 'Content/Blueprints/Player/Inventory/FItem.uasset'
+[2023.05.11-19.00.20:827][770]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.11-19.00.20:827][770]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Items/FAmmo.FAmmo
+[2023.05.11-19.00.20:827][770]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-19.00.20:827][770]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Items/FItem.FItem
+[2023.05.11-19.00.20:827][770]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Items/ItemTable.ItemTable
+[2023.05.11-19.00.35:611][108]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/Items/ItemTable.ItemTable
+[2023.05.11-19.00.37:612][108]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-19.00.37:979][108]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002973s (0.367556s overbudget)
+[2023.05.11-19.00.45:500][662]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.11-19.00.45:512][662]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.11-19.00.45:523][663]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.11-19.00.52:405][344]LogContentBrowser: Attempting asset rename: NewFolder -> Icons
+[2023.05.11-19.00.52:428][344]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.11-19.01.01:776][599]LogInterchangeEngine: [Pending] Importing
+[2023.05.11-19.01.01:783][599]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.11-19.01.01:813][600]LogTexture: Display: Building textures: /Game/Blueprints/Items/AK-47.AK-47 (BGRA8, 753x216 x1x1x1) (Required Memory Estimate: 4.819305 MB), EncodeSpeed: Fast
+[2023.05.11-19.01.01:831][600]LogInterchangeEngine: [Pending] Importing
+[2023.05.11-19.01.01:832][600]LogInterchangeEngine: [Success] Import Done
+[2023.05.11-19.01.01:952][601]LogInterchangeEngine: [Success] Import Done
+[2023.05.11-19.01.11:978][836]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.01.12:036][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/Icons/AK-47" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/Icons/AK-47.uasset" SILENT=true
+[2023.05.11-19.01.12:107][836]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Icons/AK-47
+[2023.05.11-19.01.12:108][836]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/AK-47930587EB4347865FBDD08B90E6952901.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/Icons/AK-47.uasset'
+[2023.05.11-19.01.15:846][836]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.86 sec (total: 2:35 min)
+[2023.05.11-19.01.16:978][836]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.11-19.01.17:005][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.05.11-19.01.17:028][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.11-19.01.17:045][836]AssetCheck: New page: Asset Save: AK-47
+[2023.05.11-19.01.17:045][836]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Blueprints/Items/Icons/AK-47.AK-47
+[2023.05.11-19.01.27:840][544]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Blueprints/Items/Icons/AK-47.AK-47
+[2023.05.11-19.01.28:766][544]LogViewport: Scene viewport resized to 1461x823, mode Windowed.
+[2023.05.11-19.01.51:172][238]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.01.51:234][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/Icons/AK-47" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/Icons/AK-47.uasset" SILENT=true
+[2023.05.11-19.01.51:317][238]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Icons/AK-47
+[2023.05.11-19.01.51:387][238]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/AK-47F10D9B53454EB55DFFBE62B05874CB0F.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/Icons/AK-47.uasset'
+[2023.05.11-19.01.51:485][238]LogFileHelpers: InternalPromptForCheckoutAndSave took 313 ms (total: 2:36 min)
+[2023.05.11-19.01.51:493][238]AssetCheck: New page: Asset Save: AK-47
+[2023.05.11-19.01.51:493][238]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Blueprints/Items/Icons/AK-47.AK-47
+[2023.05.11-19.02.23:615][201]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.02.23:677][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/ItemTable" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTable.uasset" SILENT=true
+[2023.05.11-19.02.23:721][201]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/ItemTable
+[2023.05.11-19.02.23:783][201]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ItemTable0E1ABEE843A81F8A09D193A0B0EA2B09.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTable.uasset'
+[2023.05.11-19.02.23:869][201]LogFileHelpers: InternalPromptForCheckoutAndSave took 253 ms (total: 2:36 min)
+[2023.05.11-19.02.23:876][201]AssetCheck: New page: Asset Save: ItemTable
+[2023.05.11-19.02.23:876][201]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Items/ItemTable.ItemTable
+[2023.05.11-19.02.30:435][833]LogSlate: Window 'ItemTable' being destroyed
+[2023.05.11-19.02.30:444][833]LogSlate: Window 'ItemTable' being destroyed
+[2023.05.11-19.02.38:323][652]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-19.02.38:324][652]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-19.02.40:329][652]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-19.02.40:573][652]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.000735s (0.249496s overbudget)
+[2023.05.11-19.03.44:929][781]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Items/FItem.FItem
+[2023.05.11-19.03.46:930][781]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-19.03.47:238][781]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.004767s (0.310171s overbudget)
+[2023.05.11-19.03.50:998][ 92]LogSlate: Window 'FItem' being destroyed
+[2023.05.11-19.03.51:003][ 92]LogSlate: Window 'FItem' being destroyed
+[2023.05.11-19.03.51:281][ 92]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-19.03.51:281][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-19.03.57:947][623]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-19.03.57:948][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-19.03.59:953][623]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-19.04.00:054][623]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.000380s (0.106837s overbudget)
+[2023.05.11-19.04.03:713][898]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.11-19.04.03:816][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.05.11-19.10.21:859][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.05.11-19.10.21:864][925]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.066
+[2023.05.11-19.10.21:883][925]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_InventoryComponent] ([2] browsable assets)...
+[2023.05.11-19.10.21:883][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_InventoryComponent]
+[2023.05.11-19.10.22:183][925]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto3
+[2023.05.11-19.10.22:183][925]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent_Auto3E6DF95D246E19605EDCEF1BEF9C9607E.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto3.uasset'
+[2023.05.11-19.10.22:747][925]LogFileHelpers: Auto-saving content packages took 0.883
+[2023.05.11-19.10.37:521][283]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/Items/ItemTable.ItemTable
+[2023.05.11-19.10.39:526][283]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-19.10.39:988][283]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.003269s (0.466267s overbudget)
+[2023.05.11-19.10.54:335][489]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.10.54:398][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/ItemTable" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTable.uasset" SILENT=true
+[2023.05.11-19.10.54:433][489]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/ItemTable
+[2023.05.11-19.10.54:497][489]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ItemTable441FC28C4B7B5111521F80B9BE3665C8.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTable.uasset'
+[2023.05.11-19.10.54:588][489]LogFileHelpers: InternalPromptForCheckoutAndSave took 253 ms (total: 2:36 min)
+[2023.05.11-19.10.54:594][489]AssetCheck: New page: Asset Save: ItemTable
+[2023.05.11-19.10.54:594][489]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Items/ItemTable.ItemTable
+[2023.05.11-19.14.59:587][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.14.59:649][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-19.14.59:941][952]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-19.15.00:027][952]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent8A7400D74DEF2CC526FB7392998DD6A6.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-19.15.00:631][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.04 sec (total: 2:37 min)
+[2023.05.11-19.15.00:639][952]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-19.15.00:639][952]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-19.15.01:043][971]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.11-19.15.01:101][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.05.11-19.19.24:406][774]LogDerivedDataCache: C:/Users/bmh22kau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.108 and deleted 0 files with total size 0 MiB. Scanned 1972 files in 1963 folders with total size 21 MiB.
+[2023.05.11-19.20.23:061][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.05.11-19.20.23:065][382]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.039
+[2023.05.11-19.20.23:085][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_InventoryComponent] ([2] browsable assets)...
+[2023.05.11-19.20.23:085][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_InventoryComponent]
+[2023.05.11-19.20.23:384][382]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto4
+[2023.05.11-19.20.23:384][382]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent_Auto4110502494745C3D4FCBFF798A6C00B92.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto4.uasset'
+[2023.05.11-19.20.23:949][382]LogFileHelpers: Auto-saving content packages took 0.884
+[2023.05.11-19.24.23:977][873]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.11-19.24.28:212][873]LogSlate: Window 'Pick Row Structure' being destroyed
+[2023.05.11-19.24.28:217][873]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2023.05.11-19.24.28:223][873]LogContentBrowser: Creating deferred item: NewDataTable
+[2023.05.11-19.24.28:237][874]LogContentBrowser: Renaming the item being created (Deferred Item: NewDataTable).
+[2023.05.11-19.24.31:293][149]LogContentBrowser: Attempting asset rename: NewDataTable -> AmmoTable
+[2023.05.11-19.24.32:555][149]LogContentBrowser: End creating deferred item NewDataTable
+[2023.05.11-19.24.34:330][301]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/Items/AmmoTable.AmmoTable
+[2023.05.11-19.25.10:027][526]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.11-19.25.10:042][526]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.11-19.25.10:051][527]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.11-19.25.15:215][ 35]LogContentBrowser: Attempting asset rename: NewFolder -> ItemTables
+[2023.05.11-19.25.15:238][ 35]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.11-19.25.32:683][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.25.32:738][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-19.25.33:032][964]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-19.25.33:600][964]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent9F4DD24C4420D9498FE9869E29CB46F0.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-19.25.33:696][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/ItemTables/ItemTable" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTables/ItemTable.uasset" SILENT=true
+[2023.05.11-19.25.33:732][964]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/ItemTables/ItemTable
+[2023.05.11-19.25.33:732][964]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ItemTableCD622A3A46807B3B0656D7BDB98B912E.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTables/ItemTable.uasset'
+[2023.05.11-19.25.33:796][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/ItemTables/AmmoTable" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTables/AmmoTable.uasset" SILENT=true
+[2023.05.11-19.25.33:822][964]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/ItemTables/AmmoTable
+[2023.05.11-19.25.33:822][964]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/AmmoTable09681ED14001E50E0BEECFA76CB342B8.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTables/AmmoTable.uasset'
+[2023.05.11-19.25.38:712][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.02 sec (total: 2:43 min)
+[2023.05.11-19.25.40:486][964]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.05.11-19.25.40:519][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.05.11-19.25.40:551][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.11-19.25.45:281][964]SourceControl: rm 'Content/Blueprints/Items/ItemTable.uasset'
+[2023.05.11-19.25.45:322][964]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.11-19.25.45:322][964]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-19.25.45:322][964]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Items/ItemTables/ItemTable.ItemTable
+[2023.05.11-19.25.45:322][964]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Items/ItemTables/AmmoTable.AmmoTable
+[2023.05.11-19.26.11:092][244]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.26.11:152][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/ItemTables/AmmoTable" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTables/AmmoTable.uasset" SILENT=true
+[2023.05.11-19.26.11:193][244]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/ItemTables/AmmoTable
+[2023.05.11-19.26.11:260][244]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/AmmoTable005968014C4F14D5E2694D876197A01B.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/ItemTables/AmmoTable.uasset'
+[2023.05.11-19.26.11:357][244]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 2:44 min)
+[2023.05.11-19.26.11:363][244]AssetCheck: New page: Asset Save: AmmoTable
+[2023.05.11-19.26.11:363][244]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Items/ItemTables/AmmoTable.AmmoTable
+[2023.05.11-19.31.03:898][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.11-19.31.03:903][358]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.038
+[2023.05.11-19.31.03:923][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_InventoryComponent] ([2] browsable assets)...
+[2023.05.11-19.31.03:923][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_InventoryComponent]
+[2023.05.11-19.31.04:425][358]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto5
+[2023.05.11-19.31.04:425][358]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent_Auto5DFFD99FB4FE9A94A8495EFB35515E143.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto5.uasset'
+[2023.05.11-19.31.04:504][358]LogFileHelpers: Auto-saving content packages took 0.601
+[2023.05.11-19.32.35:409][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.32.35:474][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-19.32.35:994][109]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-19.32.36:556][109]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent6CB2639C4194BECC50D506B22AF6D6C7.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-19.32.36:802][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.39 sec (total: 2:45 min)
+[2023.05.11-19.32.36:809][109]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-19.32.36:809][109]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-19.32.37:433][145]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.11-19.32.37:487][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.05.11-19.40.39:342][460]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.40.39:403][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-19.40.40:192][460]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-19.40.40:862][460]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent69FE8D0E4846863AA42CD493D4666FB3.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-19.40.41:564][460]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.22 sec (total: 2:47 min)
+[2023.05.11-19.40.41:572][460]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-19.40.41:572][460]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-19.40.42:302][503]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.11-19.40.42:373][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.05.11-19.48.54:052][250]LogSlate: Window 'Delete Variable' being destroyed
+[2023.05.11-19.51.34:758][ 99]LogSlate: Window 'Delete Variable' being destroyed
+[2023.05.11-19.57.04:275][687]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.57.04:317][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.11-19.57.05:626][687]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.11-19.57.06:299][687]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponentA21799E54E5CA49E558AEC9B29121C70.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.11-19.57.07:023][687]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.74 sec (total: 2:50 min)
+[2023.05.11-19.57.07:031][687]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.11-19.57.07:031][687]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.11-19.57.09:853][907]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.11-19.57.09:931][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.05.11-19.58.48:022][ 90]LogSlate: Window 'AmmoTable' being destroyed
+[2023.05.11-19.58.48:028][ 90]LogSlate: Window 'AmmoTable' being destroyed
+[2023.05.11-19.58.48:219][ 90]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-19.58.48:219][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-19.58.51:060][125]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-19.58.51:106][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LevelOne" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Levels/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.11-19.58.51:137][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.11-19.58.54:536][125]LogSavePackage: Moving output files for package: /Game/Levels/LevelOne
+[2023.05.11-19.58.54:643][125]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/LevelOne7A227D004AFC661F8069C1BA6A204DF3.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Levels/LevelOne.umap'
+[2023.05.11-19.58.55:127][125]LogFileHelpers: Saving map 'LevelOne' took 4.022
+[2023.05.11-19.58.55:137][125]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.07 sec (total: 2:54 min)
+[2023.05.11-19.58.55:145][125]AssetCheck: New page: Asset Save: LevelOne
+[2023.05.11-19.58.55:145][125]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/LevelOne.LevelOne
