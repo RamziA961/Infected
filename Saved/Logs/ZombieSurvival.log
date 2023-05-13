@@ -1509,3 +1509,1050 @@ An asset already exists at the import location: /Game/Animations/Player/rifle_ru
 [2023.05.13-16.50.03:075][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.05.13-16.50.03:472][440]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
 [2023.05.13-16.50.03:472][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-16.52.56:784][792]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-16.52.56:800][792]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Sequence Player  references an unknown Anim Sequence Base
+[2023.05.13-16.52.56:801][792]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.52.56:801][792]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.52.56:805][792]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.52.56:949][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.05.13-16.53.11:099][713]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Animations/Player/Armed_Player_Movement.Armed_Player_Movement
+[2023.05.13-16.53.11:100][713]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-16.53.11:126][713]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-16.53.11:426][713]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-16.53.11:842][713]LogViewport: Scene viewport resized to 1159x481, mode Windowed.
+[2023.05.13-16.53.11:857][713]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.13-16.53.27:237][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-16.53.27:294][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Player/Armed_Player_Movement" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Armed_Player_Movement.uasset" SILENT=true
+[2023.05.13-16.53.27:338][629]LogSavePackage: Moving output files for package: /Game/Animations/Player/Armed_Player_Movement
+[2023.05.13-16.53.27:366][629]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Armed_Player_MovementCB728622459B5F7A270CE8B4B20524B0.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Armed_Player_Movement.uasset'
+[2023.05.13-16.53.27:405][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 17.8 sec)
+[2023.05.13-16.53.27:413][629]AssetCheck: New page: Asset Save: Armed_Player_Movement
+[2023.05.13-16.53.27:413][629]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/Animations/Player/Armed_Player_Movement.Armed_Player_Movement
+[2023.05.13-16.53.32:691][955]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-16.53.32:701][955]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Sequence Player  references an unknown Anim Sequence Base
+[2023.05.13-16.53.32:702][955]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.53.32:702][955]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.53.32:706][955]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.53.32:825][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.05.13-16.54.32:075][875]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-16.54.32:086][875]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.54.32:086][875]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.54.32:089][875]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.54.32:180][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.05.13-16.54.35:026][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-16.54.35:086][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Player/Player_Animation_BP" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Player_Animation_BP.uasset" SILENT=true
+[2023.05.13-16.54.40:416][984]LogSavePackage: Moving output files for package: /Game/Animations/Player/Player_Animation_BP
+[2023.05.13-16.54.40:451][984]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Player_Animation_BPA8DBED204A430DA6B50BF98885799EFA.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Player_Animation_BP.uasset'
+[2023.05.13-16.54.40:490][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.46 sec (total: 23.2 sec)
+[2023.05.13-16.54.40:497][984]AssetCheck: New page: Asset Save: Player_Animation_BP
+[2023.05.13-16.54.40:498][984]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP
+[2023.05.13-16.55.05:395][659]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-16.55.05:404][659]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.05:404][659]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.05:408][659]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.05:494][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.05.13-16.55.21:749][627]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-16.55.21:786][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Player/Player_Animation_BP" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Player_Animation_BP.uasset" SILENT=true
+[2023.05.13-16.55.26:877][627]LogSavePackage: Moving output files for package: /Game/Animations/Player/Player_Animation_BP
+[2023.05.13-16.55.27:066][627]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Player_Animation_BP3E9F839347A3181903AD779890D449FF.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Player_Animation_BP.uasset'
+[2023.05.13-16.55.27:107][627]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.35 sec (total: 28.6 sec)
+[2023.05.13-16.55.27:118][627]AssetCheck: New page: Asset Save: Player_Animation_BP
+[2023.05.13-16.55.27:118][627]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP
+[2023.05.13-16.55.28:058][674]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-16.55.28:067][674]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.28:068][674]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.28:072][674]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.28:163][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.13-16.55.30:854][838]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-16.55.30:863][838]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.30:864][838]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.30:868][838]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-16.55.30:956][838]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: ================================================
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: Total job queries 111, among them cache hits 2 (1.80%)
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: Tracking 109 distinct input hashes that result in 80 distinct outputs (73.39%)
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: RAM used: 0.94 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.13-16.55.46:116][320]LogShaderCompilers: Display: ================================================
+[2023.05.13-17.04.16:479][484]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-17.04.16:491][484]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.04.16:491][484]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.04.16:496][484]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.04.16:589][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.05.13-17.04.21:400][875]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.04.34:788][143]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Models/Character/Player/The_Boss_Skeleton.The_Boss_Skeleton
+[2023.05.13-17.04.34:789][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.04.34:811][143]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.04.35:151][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.04.35:409][143]LogViewport: Scene viewport resized to 1159x771, mode Windowed.
+[2023.05.13-17.04.41:409][512]LogShaderCompilers: Display: ================================================
+[2023.05.13-17.04.41:409][512]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.13-17.04.41:409][512]LogShaderCompilers: Display: Total job queries 137, among them cache hits 4 (2.92%)
+[2023.05.13-17.04.41:409][512]LogShaderCompilers: Display: Tracking 133 distinct input hashes that result in 84 distinct outputs (63.16%)
+[2023.05.13-17.04.41:409][512]LogShaderCompilers: Display: RAM used: 1.08 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.05.13-17.04.41:409][512]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.13-17.04.41:409][512]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.13-17.04.41:410][512]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.13-17.04.41:410][512]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.13-17.04.41:410][512]LogShaderCompilers: Display: ================================================
+[2023.05.13-17.05.47:967][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.05.13-17.05.47:972][963]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.057
+[2023.05.13-17.05.47:978][963]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Character/Player/The_Boss_Skeleton] ([1] browsable assets)...
+[2023.05.13-17.05.47:989][963]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/Models/Character/Player/The_Boss_Skeleton.The_Boss_Skeleton]
+[2023.05.13-17.05.47:989][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Character/Player/The_Boss_Skeleton]
+[2023.05.13-17.05.48:125][963]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Character/Player/The_Boss_Skeleton_Auto1
+[2023.05.13-17.05.48:125][963]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/The_Boss_Skeleton_Auto1507F18234B300DC5641F3D8AF64C96D7.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Models/Character/Player/The_Boss_Skeleton_Auto1.uasset'
+[2023.05.13-17.05.48:160][963]LogFileHelpers: Auto-saving content packages took 0.187
+[2023.05.13-17.06.26:387][831]Cmd: TRANSACTION UNDO
+[2023.05.13-17.06.26:387][831]LogEditorTransaction: Undo Attach Assets to Skeleton
+[2023.05.13-17.06.26:649][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.06.26:650][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.06.26:651][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.07.05:978][238]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Stylized_Gun_Models_AK_-_47_Body.Stylized_Gun_Models_AK_-_47_Body
+[2023.05.13-17.07.05:996][238]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Stylized_Gun_Models_AK_-_47_Body) ...
+[2023.05.13-17.07.06:008][238]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.07.06:610][238]LogViewport: Scene viewport resized to 1427x807, mode Windowed.
+[2023.05.13-17.07.40:798][380]LogSlate: Window 'Stylized_Gun_Models_AK_-_47_Body' being destroyed
+[2023.05.13-17.07.40:804][380]LogSlate: Window 'Stylized_Gun_Models_AK_-_47_Body' being destroyed
+[2023.05.13-17.07.40:874][380]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.40:874][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.41:204][380]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.41:204][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.41:293][380]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.41:293][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.41:659][380]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.41:659][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.41:735][380]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.41:735][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.41:972][380]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.41:972][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.42:300][380]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.42:300][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.42:439][380]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.42:439][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.42:773][380]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.42:774][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.07.43:146][380]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.07.43:146][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.08.47:367][209]Cmd: SELECT NONE
+[2023.05.13-17.09.01:242][224]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Models/Character/Player/The_Boss_Skeleton.The_Boss_Skeleton
+[2023.05.13-17.09.01:242][224]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.09.01:267][224]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.09.01:627][224]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.09.01:852][224]LogViewport: Scene viewport resized to 1159x771, mode Windowed.
+[2023.05.13-17.09.57:065][805]Cmd: TRANSACTION UNDO
+[2023.05.13-17.09.57:065][805]LogEditorTransaction: Undo Translate Socket
+[2023.05.13-17.09.57:159][805]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.09.57:904][810]Cmd: TRANSACTION UNDO
+[2023.05.13-17.09.57:904][810]LogEditorTransaction: Undo Translate Socket
+[2023.05.13-17.09.57:984][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.10.08:052][389]Cmd: TRANSACTION UNDO
+[2023.05.13-17.10.08:052][389]LogEditorTransaction: Undo Translate Socket
+[2023.05.13-17.10.08:137][389]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.13.23:123][282]Cmd: TRANSACTION UNDO
+[2023.05.13-17.13.23:123][282]LogEditorTransaction: Undo Edit Y
+[2023.05.13-17.13.23:206][282]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.13.23:871][283]Cmd: TRANSACTION UNDO
+[2023.05.13-17.13.23:871][283]LogEditorTransaction: Undo Edit Y
+[2023.05.13-17.13.23:952][283]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.14.10:699][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.14.10:757][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Player/The_Boss_Skeleton" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Models/Character/Player/The_Boss_Skeleton.uasset" SILENT=true
+[2023.05.13-17.14.10:901][984]LogSavePackage: Moving output files for package: /Game/Models/Character/Player/The_Boss_Skeleton
+[2023.05.13-17.14.10:976][984]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/The_Boss_Skeleton694252224CC51D7D02F42E8FD953001F.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Models/Character/Player/The_Boss_Skeleton.uasset'
+[2023.05.13-17.14.11:018][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 319 ms (total: 28.9 sec)
+[2023.05.13-17.14.11:028][984]AssetCheck: New page: Asset Save: The_Boss_Skeleton
+[2023.05.13-17.14.11:028][984]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Models/Character/Player/The_Boss_Skeleton.The_Boss_Skeleton
+[2023.05.13-17.15.12:067][113]LogSlate: Window 'The_Boss_Skeleton' being destroyed
+[2023.05.13-17.15.12:073][113]LogSlate: Window 'The_Boss_Skeleton' being destroyed
+[2023.05.13-17.15.12:212][113]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.15.12:212][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.15.12:564][113]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.15.12:564][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.15.23:119][214]Cmd: MAP LOAD FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Levels/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.13-17.15.23:773][214]LightingResults: New page: Lighting Build
+[2023.05.13-17.15.23:774][214]LoadErrors: New page: Loading map: LevelOne.umap
+[2023.05.13-17.15.23:812][214]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.15.23:812][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.15.23:813][214]LogContentBundle: [Container: Untitled_1] Deleting container.
+[2023.05.13-17.15.23:813][214]MapCheck: New page: Map Check
+[2023.05.13-17.15.23:813][214]LightingResults: New page: Lighting Build
+[2023.05.13-17.15.23:838][214]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-17.15.23:896][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.05.13-17.15.32:682][214]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelOne'.
+[2023.05.13-17.15.32:683][214]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.15.32:683][214]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-17.15.32:763][214]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.13-17.15.32:819][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.13-17.15.32:955][214]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.13-17.15.32:955][214]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.189ms to complete.
+[2023.05.13-17.15.32:955][214]LogFileHelpers: Loading map 'LevelOne' took 9.836
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: ================================================
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: Total job queries 165, among them cache hits 12 (7.27%)
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: Tracking 153 distinct input hashes that result in 96 distinct outputs (62.75%)
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: RAM used: 1.21 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.04%
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.13-17.15.33:307][214]LogShaderCompilers: Display: ================================================
+[2023.05.13-17.15.34:293][216]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Levels/LevelOne.LevelOne:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-17.15.43:368][239]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.13-17.15.43:368][239]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.15.44:628][239]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_25:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.15.53:926][787]LogViewport: Scene viewport resized to 938x617, mode Windowed.
+[2023.05.13-17.17.49:257][207]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Items/BP_ACollectableWeapon.BP_ACollectableWeapon
+[2023.05.13-17.17.49:257][207]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.18.19:781][329]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.18.19:781][329]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.18.19:781][329]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.18.35:447][329]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.13-17.18.35:452][329]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.13-17.18.35:459][329]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.13-17.18.35:487][330]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.13-17.18.52:242][677]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_AEquipableWeapon
+[2023.05.13-17.18.53:312][677]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.13-17.18.54:593][772]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Items/BP_AEquipableWeapon.BP_AEquipableWeapon
+[2023.05.13-17.18.54:594][772]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.18.55:882][772]LogViewport: Scene viewport resized to 938x617, mode Windowed.
+[2023.05.13-17.19.16:498][553]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2023.05.13-17.19.16:548][553]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.19.16:549][553]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.19.16:549][553]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.19.56:852][169]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.19.56:899][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Items/BP_AEquipableWeapon" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/BP_AEquipableWeapon.uasset" SILENT=true
+[2023.05.13-17.19.58:473][169]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/BP_AEquipableWeapon
+[2023.05.13-17.19.58:475][169]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_AEquipableWeaponF27F69F74DAB73499F79649114750F59.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Items/BP_AEquipableWeapon.uasset'
+[2023.05.13-17.20.00:085][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.23 sec (total: 32.1 sec)
+[2023.05.13-17.20.00:095][169]AssetCheck: New page: Asset Save: BP_AEquipableWeapon
+[2023.05.13-17.20.00:095][169]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Items/BP_AEquipableWeapon.BP_AEquipableWeapon
+[2023.05.13-17.20.02:194][233]BlueprintLog: New page: Compile BP_AEquipableWeapon
+[2023.05.13-17.20.02:318][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.05.13-17.27.12:156][380]BlueprintLog: New page: Compile BP_AEquipableWeapon
+[2023.05.13-17.27.12:158][380]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Blueprints\Items\BP_AEquipableWeapon.uasset: [Compiler] The current value (ObjectTypeQuery1) of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2023.05.13-17.27.12:252][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.05.13-17.27.53:458][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.05.13-17.27.53:465][ 41]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.056
+[2023.05.13-17.27.53:467][ 41]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/BP_AEquipableWeapon] ([2] browsable assets)...
+[2023.05.13-17.27.53:467][ 41]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/BP_AEquipableWeapon]
+[2023.05.13-17.27.53:964][ 41]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Items/BP_AEquipableWeapon_Auto2
+[2023.05.13-17.27.53:964][ 41]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_AEquipableWeapon_Auto23CEED01A4251837E5709839D347995BA.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Items/BP_AEquipableWeapon_Auto2.uasset'
+[2023.05.13-17.27.53:993][ 41]LogFileHelpers: Auto-saving content packages took 0.528
+[2023.05.13-17.31.24:636][928]LogEditorTransaction: Undo Move Node
+[2023.05.13-17.31.25:842][986]LogEditorTransaction: Undo Create Pin Link
+[2023.05.13-17.36.15:423][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.13-17.36.15:423][838]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.40.24:609][172]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.13-17.40.24:645][172]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.40.24:646][172]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.40.24:650][172]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.40.24:743][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.05.13-17.40.27:089][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.40.27:136][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.13-17.40.28:853][261]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.13-17.40.28:884][261]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponentBB2517DD4A4FB0BD20A5A0A3F2EBE809.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.13-17.40.28:922][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.83 sec (total: 34.0 sec)
+[2023.05.13-17.40.28:928][261]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.13-17.40.28:928][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.13-17.40.44:103][620]LogEditorTransaction: Undo Delete current selection
+[2023.05.13-17.41.04:574][499]LogSlate: Took 0.004192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.05.13-17.41.53:126][ 10]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.13-17.41.53:162][ 10]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.41.53:162][ 10]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.41.53:167][ 10]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.41.53:262][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.05.13-17.41.55:311][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.41.55:358][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.13-17.41.57:379][ 56]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.13-17.41.57:413][ 56]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent4582123948520DDBAC0E2CBB46CFC1CA.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.13-17.41.57:455][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.14 sec (total: 36.1 sec)
+[2023.05.13-17.41.57:462][ 56]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.13-17.41.57:462][ 56]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.13-17.41.59:997][233]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.41.59:997][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.43.16:763][738]BlueprintLog: New page: Compile BP_BaseCharacterConfig
+[2023.05.13-17.43.16:791][738]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.43.16:791][738]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.43.16:796][738]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.43.16:810][738]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Blueprints\Player\BP_BaseCharacterConfig.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2023.05.13-17.43.16:811][738]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Blueprints\Player\BP_BaseCharacterConfig.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2023.05.13-17.43.16:814][738]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Blueprints\Player\BP_BaseCharacterConfig.uasset: [Compiler] The current value of the ' Hit ' pin is invalid: 'Hit' in action 'Break Hit Result' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.05.13-17.43.16:900][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.13-17.43.16:926][738]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.43.16:928][738]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_25:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.43.16:929][738]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_1.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.43.16:960][738]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_25:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.43.16:961][738]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_1.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.44.25:044][ 77]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.13-17.44.25:045][ 77]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.45.13:204][482]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.45.13:240][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.13-17.45.15:293][482]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.13-17.45.15:329][482]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent4EDFF53743E217B4EDD8C7A51D195C3A.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.13-17.45.15:370][482]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.16 sec (total: 38.3 sec)
+[2023.05.13-17.45.15:376][482]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.13-17.45.15:376][482]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.13-17.45.17:088][607]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.13-17.45.17:125][607]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.45.17:125][607]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.45.17:129][607]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.45.17:218][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.05.13-17.45.17:242][607]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_25:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.45.17:243][607]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_1.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.07:789][313]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.46.07:863][313]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_30:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.07:875][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_BaseCharacterConfig" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset" SILENT=true
+[2023.05.13-17.46.09:743][313]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_BaseCharacterConfig
+[2023.05.13-17.46.09:776][313]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_BaseCharacterConfigB75AA1FA4603DA0E0CB4CBB42238644C.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset'
+[2023.05.13-17.46.09:819][313]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.03 sec (total: 40.3 sec)
+[2023.05.13-17.46.09:825][313]AssetCheck: New page: Asset Save: BP_BaseCharacterConfig
+[2023.05.13-17.46.09:825][313]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.13-17.46.10:343][341]BlueprintLog: New page: Compile BP_BaseCharacterConfig
+[2023.05.13-17.46.10:426][341]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.46.10:426][341]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.46.10:431][341]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.46.10:446][341]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Blueprints\Player\BP_BaseCharacterConfig.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2023.05.13-17.46.10:446][341]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Blueprints\Player\BP_BaseCharacterConfig.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2023.05.13-17.46.10:543][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.13-17.46.10:581][341]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_25:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.10:583][341]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_1.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.10:584][341]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_30:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.10:585][341]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_2.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.10:619][341]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_25:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.10:620][341]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_30:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_1
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.10:621][341]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_2.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.27:376][801]BlueprintLog: New page: Compile BP_BaseCharacterConfig
+[2023.05.13-17.46.27:404][801]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.46.27:404][801]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.46.27:409][801]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.46.27:518][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.05.13-17.46.27:542][801]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_3.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.30:274][928]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.46.30:325][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_BaseCharacterConfig" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset" SILENT=true
+[2023.05.13-17.46.32:169][928]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_BaseCharacterConfig
+[2023.05.13-17.46.32:202][928]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_BaseCharacterConfig5CFBF5A34B9F67E78D365AA29F78EF47.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset'
+[2023.05.13-17.46.32:243][928]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.96 sec (total: 42.3 sec)
+[2023.05.13-17.46.32:249][928]AssetCheck: New page: Asset Save: BP_BaseCharacterConfig
+[2023.05.13-17.46.32:249][928]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.13-17.46.36:200][312]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-17.46.36:271][312]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.05.13-17.46.36:272][312]LogPlayLevel: [PlayLevel] Compiling BP_AEquipableWeapon before play...
+[2023.05.13-17.46.36:275][312]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Blueprints\Items\BP_AEquipableWeapon.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2023.05.13-17.46.36:275][312]LogBlueprint: Error: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Blueprints\Items\BP_AEquipableWeapon.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2023.05.13-17.46.36:349][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.13-17.46.36:352][312]LogPlayLevel: PlayLevel: Blueprint regeneration took 80 ms (1 blueprints)
+[2023.05.13-17.46.36:352][312]BlueprintLog: Warning: Blueprint failed to compile:  BP_AEquipableWeapon
+[2023.05.13-17.46.41:385][312]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.05.13-17.46.44:561][571]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.46.44:565][571]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.46.46:899][827]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-17.46.46:964][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-17.46.46:964][827]BlueprintLog: Warning: Blueprint failed to compile:  BP_AEquipableWeapon
+[2023.05.13-17.46.48:250][827]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.05.13-17.46.48:256][827]PIE: New page: PIE session: LevelOne (13 May 2023, 19:46:48)
+[2023.05.13-17.46.48:258][827]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.05.13-17.46.48:258][827]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.05.13-17.46.48:258][827]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.46.48:304][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045832s)
+[2023.05.13-17.46.48:304][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne.LevelOne to /Game/Levels/UEDPIE_0_LevelOne.LevelOne (0.045871s)
+[2023.05.13-17.46.48:304][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.46.48:305][827]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-17.46.48:305][827]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2023.05.13-17.46.48:357][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.05.13-17.46.48:359][827]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.05.13-17.46.48:359][827]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-17.46.48:359][827]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-17.46.48:359][827]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-17.46.48:359][827]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-17.46.48:359][827]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-17.46.48:359][827]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-17.46.48:359][827]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-17.46.48:359][827]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-17.46.48:360][827]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-17.46.48:360][827]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-17.46.48:360][827]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-17.46.48:362][827]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-17.46.48:380][827]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.05.13-17.46.48:381][827]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-17.46.48:381][827]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-17.46.48:381][827]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-17.46.48:382][827]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.05.13-17.46.48:382][827]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.05.13-17.46.48:383][827]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.05.13-17.46.48:383][827]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.05.13-17.46.48:383][827]LogInit: FAudioDevice initialized.
+[2023.05.13-17.46.48:383][827]LogAudio: Display: Audio Device (ID: 2) registered with world 'LevelOne'.
+[2023.05.13-17.46.48:386][827]LogLoad: Game class is 'BP_ZombieSurvivalGameModeBase_C'
+[2023.05.13-17.46.48:392][827]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.05.13-18.46.48
+[2023.05.13-17.46.48:393][827]LogWorld: Bringing up level for play took: 0.006472
+[2023.05.13-17.46.48:395][827]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.05.13-17.46.48:407][827]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Game/Levels/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.46.48:407][827]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InventorySystem". Node:  Set WeaponEquipped Graph:  EventGraph Function:  Execute Ubergraph Player Animation BP Blueprint:  Player_Animation_BP
+[2023.05.13-17.46.48:409][827]PIE: Server logged in
+[2023.05.13-17.46.48:410][827]PIE: Play in editor total start time 1.446 seconds.
+[2023.05.13-17.47.01:762][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.47.01:762][356]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.47.01:763][356]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.47.01:765][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.47.01:769][356]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-17.47.01:776][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.47.01:834][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.47.01:834][356]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.05.13-17.47.01:836][356]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.05.13-17.47.01:865][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.05.13-17.47.02:081][357]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.05.13-17.47.12:409][234]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP
+[2023.05.13-17.47.12:409][234]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.47.12:425][234]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.47.12:433][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.13-17.47.13:883][234]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.47.14:286][234]LogViewport: Scene viewport resized to 483x365, mode Windowed.
+[2023.05.13-17.47.22:896][540]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.47.22:917][540]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.47.45:534][892]LogDerivedDataCache: C:/Users/bmh22kau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.103 and deleted 0 files with total size 0 MiB. Scanned 2288 files in 2278 folders with total size 36 MiB.
+[2023.05.13-17.48.36:987][957]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-17.48.37:059][957]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.05.13-17.48.37:062][957]LogPlayLevel: [PlayLevel] Compiling Player_Animation_BP before play...
+[2023.05.13-17.48.37:090][957]LogPlayLevel: [PlayLevel]   Compiling BP_BaseCharacterConfig as a dependent...
+[2023.05.13-17.48.37:100][957]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.48.37:100][957]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.48.37:105][957]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.48.37:200][957]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_4.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.48.37:260][957]LogPlayLevel: [PlayLevel] Compiling BP_AEquipableWeapon before play...
+[2023.05.13-17.48.37:359][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.05.13-17.48.37:361][957]LogPlayLevel: PlayLevel: Blueprint regeneration took 302 ms (3 blueprints)
+[2023.05.13-17.48.37:361][957]PIE: New page: PIE session: LevelOne (13 May 2023, 19:48:37)
+[2023.05.13-17.48.37:390][957]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.48.37:405][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014400s)
+[2023.05.13-17.48.37:405][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne.LevelOne to /Game/Levels/UEDPIE_0_LevelOne.LevelOne (0.014436s)
+[2023.05.13-17.48.37:405][957]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.48.37:405][957]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-17.48.37:405][957]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2023.05.13-17.48.37:471][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.05.13-17.48.37:472][957]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.05.13-17.48.37:472][957]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-17.48.37:472][957]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-17.48.37:472][957]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-17.48.37:472][957]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-17.48.37:472][957]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-17.48.37:472][957]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-17.48.37:472][957]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-17.48.37:472][957]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-17.48.37:473][957]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-17.48.37:473][957]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-17.48.37:473][957]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-17.48.37:474][957]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-17.48.37:496][957]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.05.13-17.48.37:496][957]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-17.48.37:496][957]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-17.48.37:496][957]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-17.48.37:496][957]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.05.13-17.48.37:496][957]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.05.13-17.48.37:498][957]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.05.13-17.48.37:498][957]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.05.13-17.48.37:498][957]LogInit: FAudioDevice initialized.
+[2023.05.13-17.48.37:498][957]LogAudio: Display: Audio Device (ID: 3) registered with world 'LevelOne'.
+[2023.05.13-17.48.37:505][957]LogLoad: Game class is 'BP_ZombieSurvivalGameModeBase_C'
+[2023.05.13-17.48.37:512][957]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.05.13-18.48.37
+[2023.05.13-17.48.37:512][957]LogWorld: Bringing up level for play took: 0.006771
+[2023.05.13-17.48.37:514][957]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.05.13-17.48.37:515][957]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Game/Levels/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0390
+[2023.05.13-17.48.37:515][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InventorySystem". Node:  Set WeaponEquipped Graph:  EventGraph Function:  Execute Ubergraph Player Animation BP Blueprint:  Player_Animation_BP
+[2023.05.13-17.48.37:517][957]PIE: Server logged in
+[2023.05.13-17.48.37:518][957]PIE: Play in editor total start time 0.46 seconds.
+[2023.05.13-17.48.50:039][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.48.50:039][961]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.48.50:039][961]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.48.50:040][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.48.50:044][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-17.48.50:050][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.48.50:114][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.48.50:114][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.05.13-17.48.50:116][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.05.13-17.48.50:123][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.05.13-17.48.50:351][962]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.05.13-17.49.34:887][782]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-17.49.34:900][782]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.49.34:900][782]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.49.34:905][782]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.49.35:011][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.05.13-17.49.37:597][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.49.37:653][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Player/Player_Animation_BP" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Player_Animation_BP.uasset" SILENT=true
+[2023.05.13-17.49.44:883][854]LogSavePackage: Moving output files for package: /Game/Animations/Player/Player_Animation_BP
+[2023.05.13-17.49.45:093][854]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Player_Animation_BP9C0F299441398EB799D4BDA1ACCC91A8.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Player_Animation_BP.uasset'
+[2023.05.13-17.49.45:136][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.54 sec (total: 49.8 sec)
+[2023.05.13-17.49.45:144][854]AssetCheck: New page: Asset Save: Player_Animation_BP
+[2023.05.13-17.49.45:144][854]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP
+[2023.05.13-17.50.05:413][967]BlueprintLog: New page: Compile Player_Animation_BP
+[2023.05.13-17.50.05:426][967]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.50.05:426][967]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.50.05:432][967]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.50.05:538][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.05.13-17.50.09:089][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.50.09:126][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Player/Player_Animation_BP" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Player_Animation_BP.uasset" SILENT=true
+[2023.05.13-17.50.16:875][ 99]LogSavePackage: Moving output files for package: /Game/Animations/Player/Player_Animation_BP
+[2023.05.13-17.50.16:905][ 99]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Player_Animation_BPF3A574934640540FA7B22892182ACFC5.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Animations/Player/Player_Animation_BP.uasset'
+[2023.05.13-17.50.16:944][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.85 sec (total: 57.7 sec)
+[2023.05.13-17.50.16:952][ 99]AssetCheck: New page: Asset Save: Player_Animation_BP
+[2023.05.13-17.50.16:952][ 99]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP
+[2023.05.13-17.50.18:282][158]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.50.18:302][158]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.50.21:726][447]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-17.50.21:792][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-17.50.21:792][447]PIE: New page: PIE session: LevelOne (13 May 2023, 19:50:21)
+[2023.05.13-17.50.21:793][447]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.50.21:806][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013552s)
+[2023.05.13-17.50.21:806][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne.LevelOne to /Game/Levels/UEDPIE_0_LevelOne.LevelOne (0.013577s)
+[2023.05.13-17.50.21:806][447]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.50.21:807][447]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-17.50.21:807][447]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2023.05.13-17.50.21:873][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.05.13-17.50.21:876][447]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.05.13-17.50.21:876][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-17.50.21:876][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-17.50.21:876][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-17.50.21:876][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-17.50.21:876][447]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-17.50.21:877][447]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-17.50.21:877][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-17.50.21:877][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-17.50.21:877][447]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-17.50.21:877][447]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-17.50.21:877][447]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-17.50.21:879][447]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-17.50.21:896][447]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.05.13-17.50.21:896][447]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-17.50.21:896][447]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-17.50.21:896][447]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-17.50.21:896][447]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.05.13-17.50.21:896][447]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.05.13-17.50.21:897][447]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.05.13-17.50.21:897][447]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.05.13-17.50.21:897][447]LogInit: FAudioDevice initialized.
+[2023.05.13-17.50.21:897][447]LogAudio: Display: Audio Device (ID: 4) registered with world 'LevelOne'.
+[2023.05.13-17.50.21:900][447]LogLoad: Game class is 'BP_ZombieSurvivalGameModeBase_C'
+[2023.05.13-17.50.21:905][447]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.05.13-18.50.21
+[2023.05.13-17.50.21:906][447]LogWorld: Bringing up level for play took: 0.005779
+[2023.05.13-17.50.21:907][447]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.05.13-17.50.21:908][447]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Game/Levels/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0320
+[2023.05.13-17.50.21:908][447]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InventorySystem". Node:  Set WeaponEquipped Graph:  EventGraph Function:  Execute Ubergraph Player Animation BP Blueprint:  Player_Animation_BP
+[2023.05.13-17.50.21:910][447]PIE: Server logged in
+[2023.05.13-17.50.21:911][447]PIE: Play in editor total start time 0.119 seconds.
+[2023.05.13-17.50.38:340][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.50.38:340][397]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.50.38:340][397]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.50.38:341][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.50.38:345][397]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-17.50.38:350][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.50.38:413][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.50.38:414][397]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.05.13-17.50.38:416][397]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.05.13-17.50.38:433][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.05.13-17.50.38:639][398]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.05.13-17.50.42:499][706]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.50.42:514][706]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.52.16:116][366]BlueprintLog: New page: Compile BP_BaseCharacterConfig
+[2023.05.13-17.52.16:162][366]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.52.16:163][366]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.52.16:167][366]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.52.16:296][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.05.13-17.52.16:325][366]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_5.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0320
+[2023.05.13-17.52.18:262][429]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.52.18:331][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_BaseCharacterConfig" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset" SILENT=true
+[2023.05.13-17.52.20:228][429]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_BaseCharacterConfig
+[2023.05.13-17.52.20:259][429]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_BaseCharacterConfig91D90D4249927AE865F24DA97FC35C14.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset'
+[2023.05.13-17.52.20:299][429]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.03 sec (total: 59.7 sec)
+[2023.05.13-17.52.20:307][429]AssetCheck: New page: Asset Save: BP_BaseCharacterConfig
+[2023.05.13-17.52.20:307][429]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.13-17.53.21:650][426]BlueprintLog: New page: Compile BP_BaseCharacterConfig
+[2023.05.13-17.53.21:677][426]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.53.21:677][426]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.53.21:682][426]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.53.21:820][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.05.13-17.53.21:850][426]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Engine/Transient.World_15:PersistentLevel.BP_BaseCharacterConfig_C_6.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0320
+[2023.05.13-17.53.24:335][511]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.53.24:385][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_BaseCharacterConfig" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset" SILENT=true
+[2023.05.13-17.53.26:286][511]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_BaseCharacterConfig
+[2023.05.13-17.53.26:318][511]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_BaseCharacterConfig83D5C6AB4257304B960ED1A3D4ABDD26.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset'
+[2023.05.13-17.53.26:359][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.02 sec (total: 1:01 min)
+[2023.05.13-17.53.26:367][511]AssetCheck: New page: Asset Save: BP_BaseCharacterConfig
+[2023.05.13-17.53.26:367][511]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.13-17.53.31:050][853]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-17.53.31:117][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-17.53.31:117][853]PIE: New page: PIE session: LevelOne (13 May 2023, 19:53:31)
+[2023.05.13-17.53.31:117][853]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.53.31:131][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013612s)
+[2023.05.13-17.53.31:131][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne.LevelOne to /Game/Levels/UEDPIE_0_LevelOne.LevelOne (0.013649s)
+[2023.05.13-17.53.31:131][853]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.53.31:131][853]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-17.53.31:131][853]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2023.05.13-17.53.31:198][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.05.13-17.53.31:201][853]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.05.13-17.53.31:201][853]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-17.53.31:201][853]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-17.53.31:201][853]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-17.53.31:201][853]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-17.53.31:201][853]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-17.53.31:201][853]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-17.53.31:201][853]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-17.53.31:201][853]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-17.53.31:201][853]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-17.53.31:201][853]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-17.53.31:201][853]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-17.53.31:203][853]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-17.53.31:219][853]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.05.13-17.53.31:219][853]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-17.53.31:219][853]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-17.53.31:219][853]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-17.53.31:220][853]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.05.13-17.53.31:220][853]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.05.13-17.53.31:221][853]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.05.13-17.53.31:221][853]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.05.13-17.53.31:222][853]LogInit: FAudioDevice initialized.
+[2023.05.13-17.53.31:222][853]LogAudio: Display: Audio Device (ID: 5) registered with world 'LevelOne'.
+[2023.05.13-17.53.31:228][853]LogLoad: Game class is 'BP_ZombieSurvivalGameModeBase_C'
+[2023.05.13-17.53.31:233][853]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.05.13-18.53.31
+[2023.05.13-17.53.31:234][853]LogWorld: Bringing up level for play took: 0.005803
+[2023.05.13-17.53.31:236][853]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.05.13-17.53.31:236][853]LogScript: Warning: Accessed None trying to read property InventorySystem
+	Player_Animation_BP_C /Game/Levels/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.BP_BaseCharacterConfig_C_0.The_Boss.Player_Animation_BP_C_0
+	Function /Game/Animations/Player/Player_Animation_BP.Player_Animation_BP_C:ExecuteUbergraph_Player_Animation_BP:0320
+[2023.05.13-17.53.31:236][853]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InventorySystem". Node:  Set WeaponEquipped Graph:  EventGraph Function:  Execute Ubergraph Player Animation BP Blueprint:  Player_Animation_BP
+[2023.05.13-17.53.31:238][853]PIE: Server logged in
+[2023.05.13-17.53.31:239][853]PIE: Play in editor total start time 0.123 seconds.
+[2023.05.13-17.53.45:621][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.53.45:621][553]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.53.45:622][553]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.53.45:624][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.53.45:628][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-17.53.45:635][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.53.45:700][553]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-17.53.45:700][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.05.13-17.53.45:702][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.05.13-17.53.45:705][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.53.45:710][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.05.13-17.53.45:927][554]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.05.13-17.53.47:739][681]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.53.47:755][681]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.53.58:374][557]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/DataAssets/InputMaps/Armed.Armed
+[2023.05.13-17.54.09:410][389]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.54.09:411][389]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.54.09:411][389]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.13-17.54.34:143][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.54.34:170][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DataAssets/InputMaps/Armed" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/DataAssets/InputMaps/Armed.uasset" SILENT=true
+[2023.05.13-17.54.34:350][199]LogSavePackage: Moving output files for package: /Game/DataAssets/InputMaps/Armed
+[2023.05.13-17.54.34:383][199]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/ArmedE7288C1F4E7BC946742437A91C14272C.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/DataAssets/InputMaps/Armed.uasset'
+[2023.05.13-17.54.34:428][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 284 ms (total: 1:02 min)
+[2023.05.13-17.54.34:448][199]AssetCheck: New page: Asset Save: Armed
+[2023.05.13-17.54.34:448][199]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/DataAssets/InputMaps/Armed.Armed
+[2023.05.13-17.54.41:322][670]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/DataAssets/InputMaps/Input/IA_Shoot.IA_Shoot
+[2023.05.13-17.56.35:697][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.56.35:761][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DataAssets/InputMaps/Input/IA_Shoot" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/DataAssets/InputMaps/Input/IA_Shoot.uasset" SILENT=true
+[2023.05.13-17.56.35:772][269]LogSavePackage: Moving output files for package: /Game/DataAssets/InputMaps/Input/IA_Shoot
+[2023.05.13-17.56.35:833][269]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/IA_ShootAADE222A4D7462F0597E69A6795793A3.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/DataAssets/InputMaps/Input/IA_Shoot.uasset'
+[2023.05.13-17.56.35:878][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 1:02 min)
+[2023.05.13-17.56.35:886][269]AssetCheck: New page: Asset Save: IA_Shoot
+[2023.05.13-17.56.35:886][269]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/DataAssets/InputMaps/Input/IA_Shoot.IA_Shoot
+[2023.05.13-17.56.38:797][451]LogSlate: Window 'IA_Shoot' being destroyed
+[2023.05.13-17.56.38:803][451]LogSlate: Window 'IA_Shoot' being destroyed
+[2023.05.13-17.56.38:871][451]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.56.38:871][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.56.39:045][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.13-17.56.39:045][451]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.56.39:045][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.56.39:219][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.13-17.56.39:219][451]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.56.39:219][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.56.39:382][451]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.56.39:382][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.56.39:652][451]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.56.39:652][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.56.39:769][451]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.56.39:769][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.56.40:073][451]LogFileManager: Warning: DeleteFile was unable to delete 'U:/Documents/Unreal/ZombieSurvival5.1/Intermediate/Config/CoalescedSourceConfigs/Editor.ini', retrying in .5s...
+[2023.05.13-17.56.40:579][451]LogFileManager: Warning: DeleteFile recovered during retry!
+[2023.05.13-17.56.40:700][451]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.56.40:700][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.56.42:348][557]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/DataAssets/InputMaps/Input/IA_Shoot.IA_Shoot
+[2023.05.13-17.56.52:558][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.56.52:603][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DataAssets/InputMaps/Input/IA_Shoot" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/DataAssets/InputMaps/Input/IA_Shoot.uasset" SILENT=true
+[2023.05.13-17.56.52:612][ 88]LogSavePackage: Moving output files for package: /Game/DataAssets/InputMaps/Input/IA_Shoot
+[2023.05.13-17.56.52:644][ 88]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/IA_ShootDBB31EEC44B9F9D1C80A5C9D9F61F4C8.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/DataAssets/InputMaps/Input/IA_Shoot.uasset'
+[2023.05.13-17.56.52:688][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 1:02 min)
+[2023.05.13-17.56.52:695][ 88]AssetCheck: New page: Asset Save: IA_Shoot
+[2023.05.13-17.56.52:695][ 88]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/DataAssets/InputMaps/Input/IA_Shoot.IA_Shoot
+[2023.05.13-17.56.54:588][232]LogSlate: Window 'IA_Shoot' being destroyed
+[2023.05.13-17.56.54:601][232]LogSlate: Window 'IA_Shoot' being destroyed
+[2023.05.13-17.57.07:072][378]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.13-17.57.07:073][378]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.57.37:319][364]BlueprintLog: New page: Compile BP_BaseCharacterConfig
+[2023.05.13-17.57.37:347][364]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.57.37:347][364]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.57.37:352][364]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-17.57.37:483][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.05.13-17.57.39:663][423]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-17.57.39:730][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_BaseCharacterConfig" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset" SILENT=true
+[2023.05.13-17.57.41:611][423]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_BaseCharacterConfig
+[2023.05.13-17.57.41:641][423]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_BaseCharacterConfig41BC4B844C67D0E9E32EAD9AF308BB35.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_BaseCharacterConfig.uasset'
+[2023.05.13-17.57.41:680][423]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.01 sec (total: 1:04 min)
+[2023.05.13-17.57.41:687][423]AssetCheck: New page: Asset Save: BP_BaseCharacterConfig
+[2023.05.13-17.57.41:687][423]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig
+[2023.05.13-17.57.43:976][585]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-17.57.44:041][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-17.57.44:041][585]PIE: New page: PIE session: LevelOne (13 May 2023, 19:57:44)
+[2023.05.13-17.57.44:079][585]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.57.44:120][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040952s)
+[2023.05.13-17.57.44:120][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne.LevelOne to /Game/Levels/UEDPIE_0_LevelOne.LevelOne (0.041037s)
+[2023.05.13-17.57.44:120][585]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.57.44:121][585]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-17.57.44:121][585]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2023.05.13-17.57.44:186][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.05.13-17.57.44:199][585]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.05.13-17.57.44:199][585]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-17.57.44:199][585]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-17.57.44:199][585]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-17.57.44:199][585]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-17.57.44:199][585]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-17.57.44:199][585]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-17.57.44:199][585]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-17.57.44:199][585]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-17.57.44:199][585]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-17.57.44:199][585]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-17.57.44:199][585]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-17.57.44:201][585]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-17.57.44:218][585]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.05.13-17.57.44:219][585]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-17.57.44:219][585]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-17.57.44:219][585]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-17.57.44:219][585]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.05.13-17.57.44:219][585]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.05.13-17.57.44:221][585]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.05.13-17.57.44:221][585]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.05.13-17.57.44:221][585]LogInit: FAudioDevice initialized.
+[2023.05.13-17.57.44:221][585]LogAudio: Display: Audio Device (ID: 6) registered with world 'LevelOne'.
+[2023.05.13-17.57.44:224][585]LogLoad: Game class is 'BP_ZombieSurvivalGameModeBase_C'
+[2023.05.13-17.57.44:229][585]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.05.13-18.57.44
+[2023.05.13-17.57.44:229][585]LogWorld: Bringing up level for play took: 0.005768
+[2023.05.13-17.57.44:231][585]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.05.13-17.57.44:231][585]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InventorySystem". Node:  Set WeaponEquipped Graph:  EventGraph Function:  Execute Ubergraph Player Animation BP Blueprint:  Player_Animation_BP
+[2023.05.13-17.57.44:234][585]PIE: Server logged in
+[2023.05.13-17.57.44:234][585]PIE: Play in editor total start time 0.194 seconds.
+[2023.05.13-17.57.44:325][587]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_EnhancedInputAction', from offset 0
+[2023.05.13-17.57.44:325][587]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig_C:InpActEvt_IA_Shoot_K2Node_EnhancedInputActionEvent_0
+
+[2023.05.13-17.57.46:843][588]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_EnhancedInputAction', from offset 0
+[2023.05.13-17.57.46:843][588]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig_C:InpActEvt_IA_Shoot_K2Node_EnhancedInputActionEvent_0
+
+[2023.05.13-17.57.48:516][589]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_EnhancedInputAction', from offset 0
+[2023.05.13-17.57.48:516][589]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig_C:InpActEvt_IA_Shoot_K2Node_EnhancedInputActionEvent_1
+
+[2023.05.13-17.57.53:506][ 62]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_EnhancedInputAction', from offset 0
+[2023.05.13-17.57.53:506][ 62]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig_C:InpActEvt_IA_Shoot_K2Node_EnhancedInputActionEvent_0
+
+[2023.05.13-17.57.55:168][ 63]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_EnhancedInputAction', from offset 0
+[2023.05.13-17.57.55:168][ 63]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig_C:InpActEvt_IA_Shoot_K2Node_EnhancedInputActionEvent_0
+
+[2023.05.13-17.57.55:655][ 64]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_EnhancedInputAction', from offset 0
+[2023.05.13-17.57.55:655][ 64]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig_C:InpActEvt_IA_Shoot_K2Node_EnhancedInputActionEvent_1
+
+[2023.05.13-17.57.56:968][129]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_EnhancedInputAction', from offset 0
+[2023.05.13-17.57.56:969][129]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig_C:InpActEvt_IA_Shoot_K2Node_EnhancedInputActionEvent_0
+
+[2023.05.13-17.58.00:833][129]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig without an associated node. The blueprint breakpoint has been removed
+[2023.05.13-17.58.00:833][129]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Player/BP_BaseCharacterConfig.BP_BaseCharacterConfig without an associated node. The blueprint breakpoint has been removed
+[2023.05.13-17.58.08:968][130]LogBlueprintUserMessages: [HealthSystem] 85
+[2023.05.13-17.58.16:422][745]LogBlueprintUserMessages: [HealthSystem] 70
+[2023.05.13-17.58.25:252][390]LogBlueprintUserMessages: [HealthSystem] 55
+[2023.05.13-17.58.59:888][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.58.59:888][286]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.58.59:888][286]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.58.59:888][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.58.59:892][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-17.58.59:897][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.58.59:930][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.58.59:931][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.05.13-17.58.59:932][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.05.13-17.58.59:939][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.13-17.59.00:150][287]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2023.05.13-17.59.02:586][443]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.59.02:604][443]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.59.20:581][764]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-17.59.21:154][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-17.59.21:154][764]PIE: New page: PIE session: LevelOne (13 May 2023, 19:59:21)
+[2023.05.13-17.59.21:154][764]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.59.21:168][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014769s)
+[2023.05.13-17.59.21:168][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne.LevelOne to /Game/Levels/UEDPIE_0_LevelOne.LevelOne (0.014793s)
+[2023.05.13-17.59.21:169][764]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-17.59.21:169][764]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-17.59.21:169][764]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2023.05.13-17.59.21:199][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.13-17.59.21:202][764]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.05.13-17.59.21:203][764]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-17.59.21:203][764]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-17.59.21:203][764]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-17.59.21:203][764]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-17.59.21:203][764]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-17.59.21:203][764]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-17.59.21:203][764]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-17.59.21:203][764]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-17.59.21:203][764]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-17.59.21:203][764]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-17.59.21:203][764]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-17.59.21:205][764]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-17.59.21:222][764]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.05.13-17.59.21:222][764]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-17.59.21:222][764]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-17.59.21:222][764]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-17.59.21:223][764]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.05.13-17.59.21:223][764]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.05.13-17.59.21:224][764]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.05.13-17.59.21:224][764]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.05.13-17.59.21:224][764]LogInit: FAudioDevice initialized.
+[2023.05.13-17.59.21:224][764]LogAudio: Display: Audio Device (ID: 7) registered with world 'LevelOne'.
+[2023.05.13-17.59.21:229][764]LogLoad: Game class is 'BP_ZombieSurvivalGameModeBase_C'
+[2023.05.13-17.59.21:234][764]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.05.13-18.59.21
+[2023.05.13-17.59.21:235][764]LogWorld: Bringing up level for play took: 0.005625
+[2023.05.13-17.59.21:237][764]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2023.05.13-17.59.21:238][764]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InventorySystem". Node:  Set WeaponEquipped Graph:  EventGraph Function:  Execute Ubergraph Player Animation BP Blueprint:  Player_Animation_BP
+[2023.05.13-17.59.21:240][764]PIE: Server logged in
+[2023.05.13-17.59.21:240][764]PIE: Play in editor total start time 0.086 seconds.
+[2023.05.13-17.59.35:970][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.59.35:970][506]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-17.59.35:971][506]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-17.59.35:973][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.59.35:977][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-17.59.35:982][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-17.59.36:014][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-17.59.36:014][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.13-17.59.36:016][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.13-17.59.36:023][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.13-17.59.36:250][507]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2023.05.13-17.59.38:011][622]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-17.59.38:027][622]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-18.00.05:118][486]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.13-18.00.05:118][486]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-18.00.08:845][693]LogEditorTransaction: Undo Create Reroute Node
+[2023.05.13-18.01.07:001][ 72]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.13-18.01.07:077][ 72]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.01.07:077][ 72]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.01.07:082][ 72]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.01.07:160][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.05.13-18.01.09:386][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-18.01.09:434][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.13-18.01.11:478][131]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.13-18.01.11:511][131]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent215D498148048FC49BDC149F80038C52.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.13-18.01.11:552][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.16 sec (total: 1:06 min)
+[2023.05.13-18.01.11:559][131]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.13-18.01.11:559][131]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.13-18.01.13:177][266]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-18.01.13:268][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-18.01.13:268][266]PIE: New page: PIE session: LevelOne (13 May 2023, 20:01:13)
+[2023.05.13-18.01.13:317][266]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-18.01.13:331][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013578s)
+[2023.05.13-18.01.13:331][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne.LevelOne to /Game/Levels/UEDPIE_0_LevelOne.LevelOne (0.013606s)
+[2023.05.13-18.01.13:331][266]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-18.01.13:331][266]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-18.01.13:332][266]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2023.05.13-18.01.13:372][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.13-18.01.13:376][266]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.05.13-18.01.13:376][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-18.01.13:376][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-18.01.13:376][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-18.01.13:376][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-18.01.13:376][266]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-18.01.13:376][266]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-18.01.13:376][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-18.01.13:376][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-18.01.13:376][266]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-18.01.13:376][266]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-18.01.13:376][266]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-18.01.13:379][266]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-18.01.13:412][266]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.05.13-18.01.13:412][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-18.01.13:412][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-18.01.13:412][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-18.01.13:412][266]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.05.13-18.01.13:412][266]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.05.13-18.01.13:414][266]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.05.13-18.01.13:414][266]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.05.13-18.01.13:414][266]LogInit: FAudioDevice initialized.
+[2023.05.13-18.01.13:414][266]LogAudio: Display: Audio Device (ID: 8) registered with world 'LevelOne'.
+[2023.05.13-18.01.13:418][266]LogLoad: Game class is 'BP_ZombieSurvivalGameModeBase_C'
+[2023.05.13-18.01.13:424][266]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.05.13-19.01.13
+[2023.05.13-18.01.13:425][266]LogWorld: Bringing up level for play took: 0.006702
+[2023.05.13-18.01.13:427][266]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.05.13-18.01.13:428][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InventorySystem". Node:  Set WeaponEquipped Graph:  EventGraph Function:  Execute Ubergraph Player Animation BP Blueprint:  Player_Animation_BP
+[2023.05.13-18.01.13:431][266]PIE: Server logged in
+[2023.05.13-18.01.13:431][266]PIE: Play in editor total start time 0.165 seconds.
+[2023.05.13-18.01.25:583][701]LogBlueprintUserMessages: [HealthSystem] 85
+[2023.05.13-18.01.37:819][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-18.01.37:820][164]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-18.01.37:820][164]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-18.01.37:823][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-18.01.37:827][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-18.01.37:832][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-18.01.37:868][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-18.01.37:869][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.05.13-18.01.37:870][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.05.13-18.01.37:877][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.05.13-18.01.38:136][165]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.05.13-18.01.39:913][288]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-18.01.39:929][288]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-18.02.09:324][481]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.13-18.02.09:366][481]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.02.09:367][481]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.02.09:371][481]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.02.09:449][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.05.13-18.03.00:137][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.05.13-18.03.00:142][712]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/LevelOne' took 0.043
+[2023.05.13-18.03.00:143][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_InventoryComponent] ([2] browsable assets)...
+[2023.05.13-18.03.00:143][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_InventoryComponent]
+[2023.05.13-18.03.02:210][712]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto3
+[2023.05.13-18.03.02:211][712]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponent_Auto3513872004466E431301C3D8B37730ACE.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Player/BP_InventoryComponent_Auto3.uasset'
+[2023.05.13-18.03.02:254][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/BP_AEquipableWeapon] ([2] browsable assets)...
+[2023.05.13-18.03.02:254][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/BP_AEquipableWeapon]
+[2023.05.13-18.03.02:377][712]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Items/BP_AEquipableWeapon_Auto3
+[2023.05.13-18.03.02:377][712]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_AEquipableWeapon_Auto38A9CA3114A1142D21AF6FE844770BF3C.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/Autosaves/Game/Blueprints/Items/BP_AEquipableWeapon_Auto3.uasset'
+[2023.05.13-18.03.02:417][712]LogFileHelpers: Auto-saving content packages took 2.275
+[2023.05.13-18.05.47:089][156]BlueprintLog: New page: Compile BP_InventoryComponent
+[2023.05.13-18.05.47:118][156]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk/Run to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.05.47:119][156]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Idle to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.05.47:123][156]LogBlueprint: Warning: [AssetLog] U:\Documents\Unreal\ZombieSurvival5.1\Content\Animations\Player\Player_Animation_BP.uasset: [Compiler] Walk to Jump  will never be taken, please connect something to  Can Enter Transition
+[2023.05.13-18.05.47:202][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.05.13-18.05.49:401][236]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-18.05.49:454][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_InventoryComponent" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset" SILENT=true
+[2023.05.13-18.05.51:466][236]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_InventoryComponent
+[2023.05.13-18.05.51:503][236]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/BP_InventoryComponentB2B0B11D4F59F262B5B2D2AE3E86021A.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Blueprints/Player/BP_InventoryComponent.uasset'
+[2023.05.13-18.05.51:540][236]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.13 sec (total: 1:08 min)
+[2023.05.13-18.05.51:546][236]AssetCheck: New page: Asset Save: BP_InventoryComponent
+[2023.05.13-18.05.51:546][236]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_InventoryComponent.BP_InventoryComponent
+[2023.05.13-18.05.55:200][558]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-18.05.55:271][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-18.05.55:271][558]PIE: New page: PIE session: LevelOne (13 May 2023, 20:05:55)
+[2023.05.13-18.05.55:271][558]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-18.05.55:285][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014365s)
+[2023.05.13-18.05.55:285][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne.LevelOne to /Game/Levels/UEDPIE_0_LevelOne.LevelOne (0.014389s)
+[2023.05.13-18.05.55:286][558]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-18.05.55:286][558]LogAIModule: Creating AISystem for world LevelOne
+[2023.05.13-18.05.55:286][558]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2023.05.13-18.05.55:325][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.05.13-18.05.55:329][558]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.05.13-18.05.55:329][558]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-18.05.55:329][558]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-18.05.55:329][558]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-18.05.55:329][558]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-18.05.55:329][558]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-18.05.55:330][558]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-18.05.55:330][558]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-18.05.55:330][558]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-18.05.55:330][558]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-18.05.55:330][558]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-18.05.55:330][558]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-18.05.55:332][558]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-18.05.55:349][558]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.05.13-18.05.55:349][558]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-18.05.55:349][558]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-18.05.55:349][558]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-18.05.55:350][558]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.05.13-18.05.55:350][558]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.05.13-18.05.55:352][558]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.05.13-18.05.55:352][558]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.05.13-18.05.55:352][558]LogInit: FAudioDevice initialized.
+[2023.05.13-18.05.55:352][558]LogAudio: Display: Audio Device (ID: 9) registered with world 'LevelOne'.
+[2023.05.13-18.05.55:355][558]LogLoad: Game class is 'BP_ZombieSurvivalGameModeBase_C'
+[2023.05.13-18.05.55:360][558]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.05.13-19.05.55
+[2023.05.13-18.05.55:361][558]LogWorld: Bringing up level for play took: 0.005896
+[2023.05.13-18.05.55:363][558]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2023.05.13-18.05.55:364][558]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InventorySystem". Node:  Set WeaponEquipped Graph:  EventGraph Function:  Execute Ubergraph Player Animation BP Blueprint:  Player_Animation_BP
+[2023.05.13-18.05.55:366][558]PIE: Server logged in
+[2023.05.13-18.05.55:366][558]PIE: Play in editor total start time 0.095 seconds.
+[2023.05.13-18.06.19:835][465]LogBlueprintUserMessages: [HealthSystem] 85
+[2023.05.13-18.06.24:238][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-18.06.24:238][988]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LevelOne
+[2023.05.13-18.06.24:240][988]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-18.06.24:242][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-18.06.24:247][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-18.06.24:252][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-18.06.24:290][988]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-18.06.24:291][988]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.05.13-18.06.24:292][988]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.05.13-18.06.24:296][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-18.06.24:299][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.05.13-18.06.24:537][989]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2023.05.13-18.06.26:421][110]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-18.06.26:438][110]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-18.06.29:235][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-18.06.29:282][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LevelOne" FILE="U:/Documents/Unreal/ZombieSurvival5.1/Content/Levels/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.13-18.06.29:325][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.05.13-18.06.35:677][239]LogSavePackage: Moving output files for package: /Game/Levels/LevelOne
+[2023.05.13-18.06.35:709][239]LogSavePackage: Moving 'U:/Documents/Unreal/ZombieSurvival5.1/Saved/LevelOne094AE8A64453B31AF5391CAE95BC39A6.tmp' to 'U:/Documents/Unreal/ZombieSurvival5.1/Content/Levels/LevelOne.umap'
+[2023.05.13-18.06.36:617][239]LogFileHelpers: Saving map 'LevelOne' took 7.335
+[2023.05.13-18.06.36:622][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.38 sec (total: 1:16 min)
+[2023.05.13-18.06.36:631][239]AssetCheck: New page: Asset Save: LevelOne
+[2023.05.13-18.06.36:631][239]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/LevelOne.LevelOne
