@@ -18,15 +18,6 @@ class ZOMBIESURVIVAL_API AABaseCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
-
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-		USkeletalMeshComponent* Mesh1P;
-
-
-	/** First person camera */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-		UCameraComponent* FirstPersonCameraComponent;
-
 	/** Input Map */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 		class UInputMappingContext* DefaultMappingContext;
@@ -34,6 +25,15 @@ class ZOMBIESURVIVAL_API AABaseCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AABaseCharacter();
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Mesh)
+		USkeletalMeshComponent* Mesh1P;
+
+
+	/** First person camera */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		UCameraComponent* FirstPersonCameraComponent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 		class UInputAction* LookAction;

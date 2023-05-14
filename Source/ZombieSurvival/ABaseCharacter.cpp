@@ -28,7 +28,7 @@ AABaseCharacter::AABaseCharacter()
 	Mesh1P->SetupAttachment(FirstPersonCameraComponent);
 	Mesh1P->bCastDynamicShadow = false;
 	Mesh1P->CastShadow = false;
-	;
+	
 	Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
 
 	//for rotation
